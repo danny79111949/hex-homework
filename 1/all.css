@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+.container{
+    margin: 0 auto ;
+    width:1200px;
+}
+
+.header{
+    border-bottom: 1px solid #000;
+    margin-top: 47px;
+    padding-bottom: 17px;
+    font-family:"Roboto";
+}
+
+.header-content{
+    font-size: 80px;
+    line-height: 94px;
+}
+
+.photo{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    width:324px;
+    height:324px;
+    background:url('img/person.png');
+}
+
+.sub-title
+{
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+}
+
+.sub-title .cn{
+    font-size: 32px;
+    line-height: 43px;
+    font-family:"Noto Sans";
+}
+
+.sub-title .en{
+    font-size: 24px;
+    line-height: 28px;
+    color: #A00404;
+    font-family:"Roboto";
+}
+
+.basic-introduce ,.collage{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top:16px;
+    margin-bottom: 24px;
+}
+
+.job-introduce,.high-school{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 72px;
+}
+
+.skill{
+    background-color: #415165;
+    height: 474px;
+    color: white;
+    margin-bottom: 72px;
+}
+
+.skill-inner{
+    width: 996px;
+    margin: 0 auto;
+}
+
+.skill-title{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom:8px;
+    text-align: center;
+}
+
+.skill-title .cn{
+    font-size: 32px;
+    line-height: 45px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-family:"蘋方-繁";
+}
+
+.skill-title .en{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.skill-content{
+    list-style: none;
+    border-left: 1px solid #96A9C4;
+    margin-top: 40px;
+    margin-left: 390px;
+    padding-left: 24px;
+    
+}
+
+.skill-content li{
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+.skill-space{
+    padding-bottom: 20px;
+}
+
+.worker-experence
+{
+    border-left: 1px solid #96A9C4;
+    margin-top: 16px;
+    padding-left: 24px;
+    margin-left: 24px;
+    margin-bottom: 72px;
+}
+
+.work-experence-list{
+    font-size: 24px;
+    line-height:36px
+}
+
+.hex-logo{
+    background:url('img/hex-logo.png');
+    height:90px;
+    width:90px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.simtree{
+    background:url('img/simtree.png');
+    height:90px;
+    width:90px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.work-experence p{
+    font-size: 20px;
+    line-height :30px;
+    
+}
+
+.work-space{
+    margin-top: 24px;
+}
+
+.work-experence p{
+    font-size: 20px;
+    line-height :30px;
+}
+
+
+.footer{
+    background-color: #415165;
+    height: 384px;
+    color: white;
+}
+
+.footer-inner{
+    width: 1200px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.footer .cn{
+    padding-top: 24px;
+    margin-bottom: 32px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    line-height: 43px;
+    border-bottom: 1px solid white;
+}
+
+.footer .en{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.contact-list{
+    font-family:Roboto;
+    font-size:24px;
+    line-height:36px;
+    margin-bottom: 16px;
+}
+
+
+.fb{
+    background:url('img/facebook.png');
+    height:48px;
+    width:48px;
+    display: inline-block;
+    margin-right:24px;
+}
+
+.ig{
+    background:url('img/instagram.png');
+    height:48px;
+    width:48px;
+    display: inline-block;
+    margin-right:24px;
+}
+
+.line{
+    background:url('img/line.png');
+    height:48px;
+    width:48px;
+    display: inline-block;
+}
