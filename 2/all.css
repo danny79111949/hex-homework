@@ -45,6 +45,10 @@ blockquote, q {
 	quotes: "" "";
 }
 
+body{
+    
+}
+
 
 .container{
     width: 1920px;
@@ -89,28 +93,7 @@ blockquote, q {
 {
     width: 60px;
     height:60px;
-    display: inline-block;
     margin-right: 16px;
-}
-
-.header .be
-{
-    background: url('img/be.png');
-}
-
-.header .fb
-{
-    background: url('img/fb.png');
-}
-
-.header .ig
-{
-    background: url('img/ig.png');
-}
-
-.header .yu
-{
-    background: url('img/yu.png');
 }
 
 .about{
@@ -130,7 +113,7 @@ blockquote, q {
 }
 
 .about .photo{
-    background: url('img/photo.png');
+    
     width: 384px;
     height:384px;
     margin :0 auto;
@@ -181,7 +164,7 @@ hr{
 }
 
 .brand{
-    height: 1405px;
+    padding-bottom: 160px;
     background-color: #000000;
     border: 1px solid #707070;
     margin-bottom: 64px;
@@ -262,13 +245,17 @@ hr{
 }
 
 .work-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:  wrap; 
     width:1200px;
     margin:0 auto;
     margin-bottom: 160px;
 }
+
+.work-container ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap; 
+}
+
 
 .work-container .space{
     padding-right: 24px;
@@ -284,14 +271,14 @@ hr{
 
 .footer{
     background-color: #000000;
-    height: 317px;
+    padding-bottom: 80px;
     color: #FFFFFF;
     letter-spacing: 0px;
     opacity: 1;
     text-align: center;
 }
 .footer-inner{
-    width: 315px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -307,6 +294,12 @@ hr{
     font-size: 24px;
     line-height: 33px;
     font: italic normal  24px/36px Roboto;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.mail:hover,.phone:hover{
+    color:blue;
 }
 
 .footer-inner .mail{
