@@ -196,7 +196,6 @@ hr{
 }
 
 .brand .braand1{
-    background: transparent url('img/brand1.png') 0% 0% no-repeat padding-box;
     width:792px;
     height: 416px;
     margin: 0 auto;
@@ -204,22 +203,18 @@ hr{
 }
 
 .brand .img-container{
-
     width: 1200px;
-    display:flex;
-    flex-direction:row;
     margin: 0 auto;
 }
 
 .brand .braand2{
-    background: transparent url('img/brand2.png') 0% 0% no-repeat padding-box;
+    
     width:558px;
     height: 416px;
     padding-right: 24px;
 }
 
 .brand .braand3{
-    background: transparent url('img/brand3.png') 0% 0% no-repeat padding-box;
     width:558px;
     height: 416px;
 }
