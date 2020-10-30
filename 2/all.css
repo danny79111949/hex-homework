@@ -46,14 +46,11 @@ blockquote, q {
 }
 
 body{
-    
+    font-family: 'Roboto';
+    font-style: italic;
 }
 
 
-.container{
-    width: 1920px;
-    margin: 0 auto;
-}
 
 .header{
     height: 958px;
@@ -66,12 +63,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-weight:bold;
 }
 
 .here{
     font-size: 24px;
     line-height: 28px;
-    font: italic normal bold 24px/42px Roboto;
     padding-top: 88px;
     padding-right: 244px;
 }
@@ -79,13 +76,12 @@ body{
     font-size: 80px;
     line-height: 94px;
     padding-bottom: 32px;
-    font: italic normal 900 80px/94px Roboto;
+    font-weight: 900 ;
 }
 
 .header p{
     font-size: 24px;
     line-height: 36px;
-    font: italic normal bold 24px/36px Roboto;
     padding-bottom: 48px;
 }
 
@@ -101,14 +97,15 @@ body{
     color: #000000;
     opacity: 1;
     text-align: center;
+    margin-bottom: 56px;
+    margin-top: 64px;
 }
 
 .about .title
 {
     font-size: 64px;
     line-height: 75px;
-    padding-top: 64px;
-    font: italic normal medium 64px/75px Roboto;
+    font-weight:  normal;
     margin-bottom: 40px;
 }
 
@@ -124,29 +121,28 @@ body{
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 8px;
-    font: italic normal bold 24px/28px Roboto;
+    font-weight: bold;
 }
 
 hr{
     
     border-bottom-color:#000000;
     width: 384px;
-    margin: 0px;
-    margin-left: 768px;
+    margin: 0 auto;
+    
  }
 
 .about p{
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 24px;
-    font: italic normal bold 24px/36px Roboto;
+    font-weight: bold;
 }
 
 .experence{
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 56px;
-    font: italic normal bold 24px/42px Roboto;
+    font-weight: bold;
 }
 
 .experence .content{
@@ -171,27 +167,25 @@ hr{
     text-align: center;
     color: #FFFFFF;
     letter-spacing: 0px;
+    font-weight: medium ;
 }
 
 .brand .title{
     font-size: 64px;
     line-height: 75px;
     padding-top: 64px;
-    font: italic normal medium 64px/75px Roboto;
     padding-bottom: 16px;
 }
 
 .brand .content{
     font-size: 24px;
     line-height: 28px;
-    font: italic normal medium 24px/42px Roboto;
     padding-bottom: 32px;
 }
 
 .brand p{
     font-size: 20px;
     line-height: 30px;
-    font: italic normal medium 20px/30px Roboto;
     margin-bottom: 64px;
 }
 
@@ -223,26 +217,25 @@ hr{
     text-align:center;
     letter-spacing: 0px;
     color: #000000;
+    margin-bottom: 160px;
+    font-weight:medium;
 }
 
 .other-work .title{
     font-size: 64px;
     line-height: 75px;
     margin-bottom: 24px;
-    font: italic normal medium 64px/75px Roboto;
 }
 
 .other-work p{
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 56px;
-    font: italic normal medium 20px/30px Roboto;
 }
 
 .work-container{
     width:1200px;
     margin:0 auto;
-    margin-bottom: 160px;
 }
 
 .work-container ul{
@@ -261,7 +254,6 @@ hr{
     padding-bottom: 56px;
     font-size: 20px;
     line-height: 28px;
-    font: italic normal medium 20px/42px Roboto;
 }
 
 .footer{
@@ -271,6 +263,7 @@ hr{
     letter-spacing: 0px;
     opacity: 1;
     text-align: center;
+    font-weight: medium;
 }
 .footer-inner{
     width: 400px;
@@ -282,13 +275,11 @@ hr{
     line-height: 75px;
     padding-top: 64px;
     margin-bottom: 16px;
-    font: italic normal medium  64px/75px Roboto;
 }
 
 .mail,.phone{
     font-size: 24px;
     line-height: 33px;
-    font: italic normal  24px/36px Roboto;
     color: #FFFFFF;
     text-decoration:none;
 }
