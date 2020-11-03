@@ -54,8 +54,6 @@ body{
 .nav{
 	background-color:#AA0601;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	color: white;
 	justify-content: space-between;
 }
@@ -71,6 +69,7 @@ body{
 .nav ul{
 	display:flex;
 	flex-direction: row;
+	flex-wrap:  wrap;
 	margin-right: 88px;
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -85,6 +84,9 @@ body{
 .nav li a{
 	color: #FFFFFF;
     text-decoration:none;
+}
+.nav li a:hover{
+	color: blue;
 }
 
 header{
@@ -313,8 +315,49 @@ button{
 footer{
 	background-color:#AA0601 ;
 	color: white;
+	
 }
 
+.footer-inner{
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.footer-head{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 32px;
+}
+
+footer .menu{
+	display: flex;
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 48px;
+}
+footer .menu li{
+	margin-right: 48px;
+}
+
+footer .social{
+	display: flex;
+	padding-top: 36px;
+}
+
+footer .social img{
+	width: 48px;
+	height: 48px;
+	padding-right: 32px;
+}
+
+footer  a{
+	color: #FFFFFF;
+    text-decoration:none;
+}
+
+footer  a:hover{
+	color: blue;
+}
 
 
 @media(max-width:1200px){
@@ -330,9 +373,33 @@ footer{
 	}
 }
 
-@media(max-width:968px){
+@media(max-width:786px){
 	.sale li{
 		width: 100%;
 	}
+	.nav{
+		flex-direction: column;
+		align-items: center;
+	}
+	.nav .logo-new{
+		padding-left: 0px;
+		padding-top: 10px;
+		padding-bottom: 11px;
+	}
 
+	.nav ul{
+		width: 100%;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.nav li{
+		width: 50%;
+		margin-left: 0px;
+		text-align: center;
+		border: 1px solid #FFFFFF;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		box-sizing: border-box;
+	}
 }
