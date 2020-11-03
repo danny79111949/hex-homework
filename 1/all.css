@@ -32,7 +32,7 @@ time, mark, audio, video {
     font-family:"Roboto";
 }
 
-.header-content{
+h1{
     font-size: 80px;
     line-height: 94px;
 }
@@ -79,7 +79,7 @@ time, mark, audio, video {
 
 .skill{
     background-color: #415165;
-    height: 474px;
+    padding-bottom: 36px;
     color: white;
     margin-bottom: 72px;
 }
@@ -175,7 +175,7 @@ time, mark, audio, video {
 
 .footer{
     background-color: #415165;
-    height: 384px;
+    padding-bottom:36px;
     color: white;
 }
 
