@@ -322,31 +322,11 @@ footer{
 	margin: 0 auto;
 }
 
-.footer-head{
+footer .up{
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 32px;
-}
-
-footer .menu{
-	display: flex;
-	font-size: 16px;
-	line-height: 24px;
-	padding-top: 48px;
-}
-footer .menu li{
-	margin-right: 48px;
-}
-
-footer .social{
-	display: flex;
-	padding-top: 36px;
-}
-
-footer .social img{
-	width: 48px;
-	height: 48px;
-	padding-right: 32px;
+	border-bottom: 1px solid #FFFFFF;
+	padding-bottom: 22px;
 }
 
 footer a{
@@ -358,41 +338,91 @@ footer  a:hover{
 	color: blue;
 }
 
-.communication .phone img{
-	width: 44px;
-	height: 44px;
+footer .menu{
+	padding-top: 48px;
+	margin-bottom: 32px;
+}
+footer .menu li{
+	font-size: 16px;
+	line-height: 24px;
+	margin-right: 48px;
+	display: inline;
 }
 
-.communication .mail img{
+footer .social{
+	padding-top: 36px;
+}
+
+footer .social li{
+	display: inline;
+	margin-left: 32px;
+}
+
+footer .social img{
 	width: 48px;
 	height: 48px;
 }
 
-footer .communication{
+footer p a{
 	font-size: 36px;
 	line-height: 48px;
 }
 
-footer .communication .phone{
-	padding-bottom: 17px;
+footer p{
+	position: relative;
 }
 
-footer .communication .mail{
-	padding-bottom: 22px;
-	border-bottom: 1px solid #FFFFFF;
+footer .phone{
+	margin-right: 17px;
+	position: relative;
+	top: 6px;
+}
+footer .mail{
+	margin-right: 12px;
+	position: relative;
+	top: 11px;
 }
 
-.footer-footer{
+
+.down{
+	padding-top: 24px;
 	padding-bottom: 28px;
+	display: flex;
+	justify-content: space-between;
 }
 
-.footer-footer img{
-	margin-top: 24px;
-	width: 80px;
-	height: 48px;
+.down .left{
+	display: flex;
 }
+
+.down .right{
+	padding-top: 16px;
+}
+
+.down .right div{
+	display: inline;
+	margin-left: 62px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+
+.copyright{
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 38px;
+	padding-top: 16px;
+}
+
+
 
 @media(max-width:1200px){
+	.footer-inner{
+		width: 90%;
+	}
+}
+
+@media(max-width:768px){
 	.sale li{
 		width: 50%;
 	}
@@ -413,44 +443,31 @@ footer .communication .mail{
 	footer .social img{
 		width: 24px;
 		height: 24px;
-		padding-right:24px;
+		margin-left:24px;
 	}
-	.footer-head{
-		padding-bottom: 24px;
+	footer .phone{
+		width: 24px;
+		height:24px;
 	}
-
-	footer .communication .phone{
-		padding-bottom: 11px;
+	footer .mail{
+		width: 32px;
+		height:32px;
 	}
-	
-	footer .communication .mail{
-		padding-bottom: 27px;
-	}
-	footer .communication{
+	footer p a{
 		font-size: 20px;
 		line-height: 30px;
 	}
-
-	.communication .phone img{
-		width: 24px;
-		height: 24px;
+	footer .up{
+		padding-bottom: 27px;
 	}
-	
-	.communication .mail img{
-		width: 32px;
-		height: 32px;
-	}
-
-	.footer-footer img {
+	footer .down img{
 		display: none;
 	}
 
-	.footer-footer{
-		padding-bottom: 40px;
-	}
+
 }
 
-@media(max-width:786px){
+@media(max-width:386px){
 	.sale li{
 		width: 100%;
 	}
