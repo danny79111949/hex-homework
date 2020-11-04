@@ -315,7 +315,6 @@ button{
 footer{
 	background-color:#AA0601 ;
 	color: white;
-	
 }
 
 .footer-inner{
@@ -350,7 +349,7 @@ footer .social img{
 	padding-right: 32px;
 }
 
-footer  a{
+footer a{
 	color: #FFFFFF;
     text-decoration:none;
 }
@@ -359,6 +358,39 @@ footer  a:hover{
 	color: blue;
 }
 
+.communication .phone img{
+	width: 44px;
+	height: 44px;
+}
+
+.communication .mail img{
+	width: 48px;
+	height: 48px;
+}
+
+footer .communication{
+	font-size: 36px;
+	line-height: 48px;
+}
+
+footer .communication .phone{
+	padding-bottom: 17px;
+}
+
+footer .communication .mail{
+	padding-bottom: 22px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-footer{
+	padding-bottom: 28px;
+}
+
+.footer-footer img{
+	margin-top: 24px;
+	width: 80px;
+	height: 48px;
+}
 
 @media(max-width:1200px){
 	.sale li{
@@ -370,6 +402,51 @@ footer  a:hover{
 	}
 	.nav ul{
 		margin-right: 39px;
+	}
+
+	footer .menu{
+		padding-top: 40px;
+	}
+	footer .social{
+		padding-top: 40px;
+	}
+	footer .social img{
+		width: 24px;
+		height: 24px;
+		padding-right:24px;
+	}
+	.footer-head{
+		padding-bottom: 24px;
+	}
+
+	footer .communication .phone{
+		padding-bottom: 11px;
+	}
+	
+	footer .communication .mail{
+		padding-bottom: 27px;
+	}
+	footer .communication{
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.communication .phone img{
+		width: 24px;
+		height: 24px;
+	}
+	
+	.communication .mail img{
+		width: 32px;
+		height: 32px;
+	}
+
+	.footer-footer img {
+		display: none;
+	}
+
+	.footer-footer{
+		padding-bottom: 40px;
 	}
 }
 
