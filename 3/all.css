@@ -177,6 +177,7 @@ footer .mail{
 
 .down .left{
 	display: flex;
+	position: relative;
 }
 
 .down .right{
@@ -198,7 +199,10 @@ footer .mail{
 	padding-top: 16px;
 }
 
-.nav .last ,footer .menu .last,footer .social .last ,.down .right .last{
+.nav .last ,
+footer .menu .last,
+footer .social .last ,
+.down .right .last{
 	margin-right: 0;
 	padding-right: 0;
 }
@@ -257,8 +261,17 @@ footer .mail{
 	}
 	.copyright{
 		margin-left: 0;
+		padding-top: 0px;
 	}
-
+	.down .right{
+		padding-top: 1px;
+	}
+	.down .right div{
+		margin-right: 24px;
+	}
+	.down {
+		padding-bottom: 40px;
+	}
 }
 
 @media(max-width:767px){
@@ -319,16 +332,29 @@ footer .mail{
 		line-height: 30px;
 	}
 	.down{
-		
+		padding-top: 18px;
 		display: flex;
 		flex-direction: column;
+		padding-bottom: 25px;
 	}
 	footer .down img{
 		display: block;
 	}
 	.down .right div{
 		display: block;
-		
+	}
+	.down .left  {
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.privacy{
+		padding-bottom: 8px;
+	}
+	.down .left  img{
+		width: 46px;
+		height: 28px;
+		position: relative;
+		top:60px;
 	}
 }
 
