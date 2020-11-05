@@ -193,7 +193,7 @@ h5{
 	background-size:650px 813px;
 }
 
-.sunglasses{
+.sungless{
 	background-image: url('img/sunglasses.jpg');
 	background-position: 0 -160px;
 	background-size:650px 975px;
@@ -205,30 +205,38 @@ h5{
 	background-size:650px 320px;
 }
 
+.logo{
+	margin-left: 30px;
+	margin-right: 8px;
+}
+
 .optical_logo{
 	width: 48px;
 	height: 38px;
+	margin-top: 141px;
 }
-.sunglasses_logo{
+.sungless_logo{
 	width: 48px;
 	height: 48px;
+	margin-left: 91px;
+	margin-top: 136px;
 }
 .functional_logo{
 	width: 35px;
 	height: 48px;
+	margin-top: 136px;
 }
-.classic .logo{
-	margin:auto;
-	margin-left: 30px;
-	margin-right: 8px;
+
+.li_sungless h3{
+	padding-right: 30px;
 }
-.classic .classic_li2{
-	padding-left: 91px;
+
+
+.classic h3{
+	padding-top: 128px;
 }
-.classic .category{
-	height:63px;
-	margin: auto 0;
-}
+
+
 
 
 
@@ -354,6 +362,9 @@ footer .social .last ,
 	.classic-inner{
 		width: 92%;
 	}
+	.sunglasses_logo{
+		
+	}
 	.footer-inner{
 		width: 92%;
 	}
@@ -367,7 +378,11 @@ footer .social .last ,
 		line-height: 48px;
 		padding-bottom: 32px;
 	}
-
+	h3{
+		color:#AA0601;
+		font-size: 28px;
+		line-height: 37px;
+	}
 	h5{
 		font-size: 20px;
 		line-height: 30px;
@@ -432,6 +447,56 @@ footer .social .last ,
 		width: 237px;
 	}
 
+
+	.photo{
+		width:390px;
+		height:168px;
+	}
+	.optical{
+		background-position: 0 -150px;
+		background-size:390px 488px;
+	}
+	
+	.sungless{
+		background-position: 0 -105px;
+		background-size:390px 585px;
+	}
+	
+	.functional{
+		background-size:390px 168px;
+	}
+
+	.optical_logo{
+		width: 32px;
+		height: 25px;
+		margin-top: 71px;
+	}
+	.sungless_logo{
+		width: 32px;
+		height: 32px;
+		margin-top: 69px;
+		margin-left: 30px;
+	}
+	.functional_logo{
+		width: 23px;
+		height: 32px;
+		margin-top: 69px;
+	}
+
+	.classic h3{
+		padding-top: 65px;
+	}
+
+
+	.li_sungless img{
+		order:2;
+	}
+	.li_sungless h3{
+		order:3;
+	}
+	.li_sungless .photo{
+		order:1;
+	}
 
 
 	footer .menu{
@@ -515,6 +580,7 @@ footer .social .last ,
 		box-sizing: border-box;
 	}
 
+
 	.sale
 	{
 		padding-top: 32px;
@@ -528,6 +594,39 @@ footer .social .last ,
 		margin-top: 40px;
 	}
 
+
+	.photo{
+		width:345px;
+		height:134px;
+		margin:0 auto;
+	}
+	.optical{
+		background-position: 0 -150px;
+		background-size:345px 432px;
+	}
+	
+	.sungless{
+		background-position: 0 -105px;
+		background-size:345px 517px;
+	}
+	
+	.functional{
+		background-size:345px 149px;
+	}
+
+	.li_optical img,.li_optical h3{
+		display: none;
+	}
+	
+	.li_sungless img,.li_sungless h3{
+		display: none;
+	}
+	
+	.li_functional img,.li_functional h3{
+		display: none;
+	}
+
+
 	footer .up .left .menu{
 		display: none;
 	}
@@ -537,7 +636,6 @@ footer .social .last ,
 	footer .social{
 		padding-top: 24px;
 	}
-
 	footer .phone{
 		margin-right: 4px;
 		width: 20px;
