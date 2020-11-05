@@ -470,16 +470,13 @@ footer .social .last ,
 		background-position: 0 -150px;
 		background-size:390px 488px;
 	}
-	
 	.sungless{
 		background-position: 0 -105px;
 		background-size:390px 585px;
 	}
-	
 	.functional{
 		background-size:390px 168px;
 	}
-
 	.optical_logo{
 		width: 32px;
 		height: 25px;
@@ -496,12 +493,12 @@ footer .social .last ,
 		height: 32px;
 		margin-top: 69px;
 	}
-
 	.classic h3{
 		padding-top: 65px;
 	}
-
-
+	.li_optical,.li_sungless{
+		margin-bottom: 8px;
+	}
 	.li_sungless .logo{
 		order:2;
 	}
