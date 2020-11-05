@@ -59,6 +59,13 @@ h2
     line-height: 72px;
 	text-align: center;
 }
+
+h3{
+	color:#AA0601;
+	font-size: 48px;
+	line-height: 63px;
+}
+
 h5{
 	color: #650300;
 	font-size: 24px;
@@ -158,6 +165,69 @@ h5{
 	margin-bottom: 55px;
 	width:100px;
 	height:70px;
+}
+
+
+
+.classic{
+	padding-top: 64px;
+	padding-bottom: 80px;
+}
+.classic-inner{
+	width: 1200px;
+	margin: 0 auto;
+}
+.classic li{
+	display: flex;
+	margin-bottom: 32px;
+}
+
+.photo{
+	width:635px;
+	height:320px;
+}
+
+.optical{
+	background-image: url('img/optical.jpg');
+	background-position: 0 -200px;
+	background-size:650px 813px;
+}
+
+.sunglasses{
+	background-image: url('img/sunglasses.jpg');
+	background-position: 0 -160px;
+	background-size:650px 975px;
+	-webkit-filter:grayscale(1);
+}
+
+.functional{
+	background-image: url('img/functional.png');
+	background-size:650px 320px;
+}
+
+.optical_logo{
+	width: 48px;
+	height: 38px;
+}
+.sunglasses_logo{
+	width: 48px;
+	height: 48px;
+}
+.functional_logo{
+	width: 35px;
+	height: 48px;
+}
+.classic .logo{
+	margin:auto;
+	margin-left: 30px;
+	margin-right: 8px;
+}
+.classic .classic_li2{
+	padding-left: 91px;
+}
+.classic .category{
+	height:63px;
+	margin: auto 0;
 }
 
 
@@ -278,12 +348,16 @@ footer .social .last ,
 }
 
 @media(max-width:1260px){
-	.footer-inner{
-		width: 92%;
-	}
 	.sale ul{
 		width: 92%;
 	}
+	.classic-inner{
+		width: 92%;
+	}
+	.footer-inner{
+		width: 92%;
+	}
+
 }
 
 @media(max-width:992px){
@@ -414,9 +488,6 @@ footer .social .last ,
 		line-height: 33px;
 		padding-bottom: 20px;
 	}
-
-
-	
 	.nav{
 		flex-direction: column;
 		align-items: center;
