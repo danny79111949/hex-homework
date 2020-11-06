@@ -1,0 +1,202 @@
+footer{
+	background-color:#AA0601 ;
+	color: white;
+}
+
+footer .up{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #FFFFFF;
+	padding-bottom: 22px;
+}
+
+footer a{
+	color: #FFFFFF;
+    text-decoration:none;
+}
+
+footer  a:hover{
+	color: blue;
+}
+
+footer .menu{
+	padding-top: 48px;
+	margin-bottom: 32px;
+}
+footer .menu li{
+	font-size: 16px;
+	line-height: 24px;
+	margin-right: 48px;
+	display: inline;
+}
+
+footer .social{
+	padding-top: 36px;
+}
+
+footer .social li{
+	display: inline;
+	margin-right: 32px;
+}
+
+footer .social img{
+	width: 48px;
+	height: 48px;
+}
+
+footer p a{
+	font-size: 36px;
+	line-height: 48px;
+}
+
+footer p{
+	position: relative;
+}
+
+footer .phone{
+	width: 44px;
+	height: 44px;
+	margin-right: 17px;
+	position: relative;
+	top: 6px;
+}
+footer .mail{
+	width: 48px;
+	height: 48px;
+	margin-right: 12px;
+	position: relative;
+	top: 11px;
+}
+
+.down{
+	padding-top: 24px;
+	padding-bottom: 28px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.down .left{
+	display: flex;
+	position: relative;
+}
+
+.down .right{
+	padding-top: 16px;
+}
+
+.down .right div{
+	display: inline;
+	margin-right: 62px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.copyright{
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 38px;
+	padding-top: 16px;
+}
+
+
+@media(max-width:992px){
+	footer .menu{
+		padding-top: 40px;
+	}
+	footer .social{
+		padding-top: 40px;
+	}
+	footer .social li{
+		margin-right: 24px;
+	}
+	footer .social img{
+		width: 24px;
+		height: 24px;
+	}
+	footer .phone{
+		width: 24px;
+		height:24px;
+	}
+	footer .mail{
+		width: 32px;
+		height:32px;
+	}
+	footer p a{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	footer .up{
+		padding-bottom: 27px;
+	}
+	footer .down img{
+		display: none;
+	}
+	.copyright{
+		margin-left: 0;
+		padding-top: 0px;
+	}
+	.down .right{
+		padding-top: 1px;
+	}
+	.down .right div{
+		margin-right: 24px;
+	}
+	.down {
+		padding-bottom: 40px;
+	}
+}
+
+@media(max-width:767px){
+
+
+	footer .up .left .menu{
+		display: none;
+	}
+	footer .up .left{
+		padding-top: 23px;
+	}
+	footer .social{
+		padding-top: 24px;
+	}
+	footer .phone{
+		margin-right: 4px;
+		width: 20px;
+		height:20px;
+		top:4px;
+	}
+	footer .mail{
+		margin-right: 5px;
+		width: 20px;
+		height:20px;
+		top: 5px;
+	}
+	footer p a{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.down{
+		padding-top: 18px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 25px;
+	}
+	footer .down img{
+		display: block;
+	}
+	.down .right div{
+		display: block;
+	}
+	.down .left  {
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.privacy{
+		padding-bottom: 8px;
+	}
+	.down .left  img{
+		width: 46px;
+		height: 28px;
+		position: relative;
+		top:60px;
+	}
+}

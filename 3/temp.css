@@ -1,0 +1,127 @@
+header{
+	background: url('img/68.jpg') no-repeat padding-box;
+	color: #650300;
+	background-position: center;
+	background-size: cover;
+	text-align: center;	
+}
+
+
+
+h1{
+	font-size: 64px;
+	line-height: 96px;
+	padding-bottom: 350px;
+}
+
+h3{
+	color:#AA0601;
+	font-size: 48px;
+	line-height: 63px;
+	display: inline;
+}
+
+h4{
+	padding-top: 350px;
+	font-size: 36px;
+	line-height: 54px;
+}
+
+h2
+{
+    color:#650300;
+    padding-bottom: 60px;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+
+
+
+
+
+.joint_design{
+	background: url('img/joint.jpg');
+	padding-bottom: 80px;
+	background-position:-450px -1400px;
+}
+.joint_design h2{
+	color: white;
+	padding-top: 64px;
+}
+
+.joint_design .container{
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.doubleA{
+	background: url('img/doubleA.jpg');
+	background-size: 100%;
+	background-position:0 -100px;
+	margin-right: 30px;
+}
+.youth{
+	background: url('img/youth.jpg');
+	background-size: 100%;
+	background-position:0 -120px;
+	
+}
+
+.doubleA , .youth{
+	width: 48%;
+	height: 472px;
+	display: inline-block;
+	color: #AA0601;
+	font-size: 72px;
+	line-height: 472px;
+	text-align: center;
+}
+
+
+
+
+.contact{
+	background-color: #AA06010D;
+	padding-bottom: 80px;
+	padding-top: 64px;
+}
+.contact-inner{
+	margin: 0 auto;
+	width: 730px;
+}
+.contact h2{
+	color: black;
+	padding-bottom: 24px;
+}
+.contact p{
+	padding-bottom: 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.contact label{
+	padding-bottom: 4px;
+	font-size: 16px;
+	line-height: 24px;
+}
+.contact input{
+	width :100%;
+	background-color: #AA06010D;
+	margin-bottom: 16px;
+	height: 50px;
+}
+
+textarea{
+	width: 100%;
+	background-color: #AA06010D;
+	margin-bottom: 16px;
+}
+
+button{
+	background-color: #AA0601;
+	color: white;
+	width: 350px;
+	height: 54px;
+	margin: 0 auto;
+    display: block;
+}

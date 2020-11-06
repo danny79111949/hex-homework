@@ -1,0 +1,196 @@
+
+.classic{
+	padding-top: 64px;
+	padding-bottom: 80px;
+}
+
+.classic li{
+	display: flex;
+}
+
+.li_optical,.li_sungless{
+	margin-bottom: 32px;
+}
+
+.photo{
+	width:635px;
+	height:320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo img,.photo div{
+	display: none;
+}
+
+.optical{
+	background-image: url('../img/optical.jpg');
+	background-position: 0 -200px;
+	background-size:650px 813px;
+}
+
+.sungless{
+	background-image: url('../img/sunglasses.jpg');
+	background-position: 0 -160px;
+	background-size:650px 975px;
+	-webkit-filter:grayscale(1);
+}
+
+.functional{
+	background-image: url('../img/functional.png');
+	background-size:650px 320px;
+}
+
+.logo{
+	margin-left: 30px;
+	margin-right: 8px;
+}
+
+.optical_logo{
+	width: 48px;
+	height: 38px;
+	margin-top: 141px;
+}
+.sungless_logo{
+	width: 48px;
+	height: 48px;
+	margin-left: 91px;
+	margin-top: 136px;
+}
+.functional_logo{
+	width: 35px;
+	height: 48px;
+	margin-top: 136px;
+}
+
+.li_sungless h3{
+	padding-right: 30px;
+}
+
+.classic h3{
+	padding-top: 128px;
+}
+
+
+@media(max-width:992px){
+	.classic{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.photo{
+		width:390px;
+		height:168px;
+	}
+	.optical{
+		background-position: 0 -150px;
+		background-size:390px 488px;
+	}
+	.sungless{
+		background-position: 0 -105px;
+		background-size:390px 585px;
+	}
+	.functional{
+		background-size:390px 168px;
+	}
+	.optical_logo{
+		width: 32px;
+		height: 25px;
+		margin-top: 71px;
+	}
+	.sungless_logo{
+		width: 32px;
+		height: 32px;
+		margin-top: 69px;
+		margin-left: 30px;
+	}
+	.functional_logo{
+		width: 23px;
+		height: 32px;
+		margin-top: 69px;
+	}
+	.classic h3{
+		padding-top: 65px;
+	}
+	.li_optical,.li_sungless{
+		margin-bottom: 8px;
+	}
+	.li_sungless .logo{
+		order:2;
+	}
+	.li_sungless h3{
+		order:3;
+	}
+	.li_sungless .photo{
+		order:1;
+	}
+}
+
+@media(max-width:767px){
+
+
+	.classic{
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.photo{
+		width:345px;
+		height:134px;
+		margin:0 auto;
+	}
+	.photo img,.photo div{
+		display: block;
+	}
+	.photo div{
+		font-size:28px;
+		line-height: 37px;
+		color: white;
+	}
+	.optical img{
+		width: 32px;
+		height: 25px;
+		margin-right: 8px;
+	}
+	.sungless img{
+		width: 32px;
+		height: 32px;
+		margin-right: 8px;
+	}
+	.functional img{
+		width: 23px;
+		height: 32px;
+		margin-right: 8px;
+	}
+	.optical{
+		background-position: 0 -130px;
+		background-size:345px 432px;
+	}
+	
+	.sungless{
+		background-position: 0 -105px;
+		background-size:345px 517px;
+	}
+	
+	.functional{
+		background-size:345px 149px;
+	}
+
+
+	.logo{
+		display: none;
+	}
+
+	.li_optical h3{
+		display: none;
+	}
+	
+	.li_sungless h3{
+		display: none;
+	}
+	
+	.li_functional h3{
+		display: none;
+	}
+
+}
