@@ -30,7 +30,8 @@
 
 .nav li a{
 	color: #FFFFFF;
-    text-decoration:none;
+	text-decoration:none;
+	display: block;
 }
 .nav li a:hover{
 	color: blue;
