@@ -10,6 +10,10 @@
 	padding-top: 64px;
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+}
 
 .doubleA{
 	background: url('../img/doubleA.jpg');
@@ -22,48 +26,37 @@
 	background-size: 100%;
 	background-position:0 -120px;
 }
-.img-container{
-    display: flex;
-    justify-content: center;
-}
 
-.doubleA , .youth{
+.joint_pic{
 	width: 540px;
 	height: 472px;
 	color: #AA0601;
 	font-size: 72px;
-	line-height: 472px;
     text-align: center;
     background-repeat: no-repeat;
 }
 
-.doubleA div, .youth div{
-    margin: auto;
-}
 
 
 @media(max-width:992px)
 {
-    .doubleA , .youth{
-        width: 50%;
+    .joint_pic{
+        width: 45%;
         font-size: 32px;
         line-height: 43px;
     }
-
 }
 @media(max-width:767px)
 {
-    .doubleA , .youth{
+    .joint_pic{
         font-size: 32px;
         line-height: 43px;
-        width: 100%;
+        width: 60%;
+        margin:0 auto;
     }
-
     .doubleA{
         margin-bottom:16px ;
-        margin-right: 0px;
     }
-
     .img-container{
         flex-direction: column;
         width: 100%;
