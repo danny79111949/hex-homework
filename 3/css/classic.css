@@ -45,23 +45,22 @@
 .logo{
 	margin-left: 30px;
 	margin-right: 8px;
+	align-self: center;
 }
 
 .optical_logo{
 	width: 48px;
 	height: 38px;
-	margin-top: 141px;
+	
 }
 .sungless_logo{
 	width: 48px;
 	height: 48px;
 	margin-left: 91px;
-	margin-top: 136px;
 }
 .functional_logo{
 	width: 35px;
 	height: 48px;
-	margin-top: 136px;
 }
 
 .li_sungless h3{
@@ -69,7 +68,13 @@
 }
 
 .classic h3{
-	padding-top: 128px;
+	align-self: center;
+}
+
+@media(max-width:1260px){
+	.sungless_logo{
+		margin-left: 0;
+	}
 }
 
 
@@ -96,22 +101,17 @@
 	.optical_logo{
 		width: 32px;
 		height: 25px;
-		margin-top: 71px;
 	}
 	.sungless_logo{
 		width: 32px;
 		height: 32px;
-		margin-top: 69px;
 		margin-left: 30px;
 	}
 	.functional_logo{
 		width: 23px;
 		height: 32px;
-		margin-top: 69px;
 	}
-	.classic h3{
-		padding-top: 65px;
-	}
+
 	.li_optical,.li_sungless{
 		margin-bottom: 8px;
 	}
