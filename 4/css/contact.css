@@ -1,0 +1,130 @@
+.contact{
+	background-color: #AA06010D;
+	padding-bottom: 80px;
+	padding-top: 64px;
+}
+.contact-inner{
+	margin: 0 auto;
+	width: 730px;
+}
+.contact h2{
+	color: black;
+	padding-bottom: 24px;
+}
+.contact p{
+	padding-bottom: 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.contact label{
+	padding-bottom: 4px;
+	font-size: 16px;
+	line-height: 24px;
+}
+.contact input[type="text"]{
+	width :100%;
+	background-color: #AA06010D;
+	margin-bottom: 16px;
+    height: 50px;
+    padding: 0px;
+}
+
+textarea{
+	width: 100%;
+	background-color: #AA06010D;
+    margin-bottom: 16px;
+    width: 730px;
+    height: 136px;
+    padding: 0px;
+}
+
+
+.contact .check{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 42px;
+}
+
+button{
+	background-color: #AA0601;
+	color: white;
+	width: 350px;
+	height: 54px;
+	margin: 0 auto;
+    display: block;
+}
+
+@media(max-width:992px)
+{
+    .contact{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .contact-inner{
+        width: 450px;
+    }
+    .contact h2{
+        padding-bottom: 16px;
+    }
+    .contact p{
+        padding-bottom: 12px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact label{
+        padding-bottom: 2px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contact input[type="text"]{
+        margin-bottom: 8px;
+        height: 36px;
+    }
+    textarea{
+        width: 450px;
+        height: 100px;
+        margin-bottom: 8px;
+    }
+    .contact .check{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    button{
+        width: 210px;
+        height: 36px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .contact{
+        padding-bottom: 32px;
+        padding-top: 32px;
+    }
+    .contact-inner{
+        width: 345px;
+    }
+    .contact h2{
+        font-size: 20px;
+		line-height: 28px;
+        padding-bottom: 20px;
+    }
+    .contact p{
+        padding-bottom: 8px;
+    }
+    textarea{
+        width: 345px;
+        height: 100px;
+        margin-bottom: 8px;
+    }
+    .contact .check{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 24px;
+    }
+    button{
+        width: 165px;
+        height: 36px;
+    }
+}
