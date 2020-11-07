@@ -40,7 +40,7 @@
     line-height: 24px;
 }
 
-.line{
+.space_line{
     display: none;
 }
 
@@ -102,7 +102,7 @@
         font-size: 14px;
         line-height: 21px;
     }
-    .line{
+    .space_line{
         display: block;
     }
 }

@@ -1,0 +1,505 @@
+
+.classic{
+	padding-top: 64px;
+	padding-bottom: 80px;
+}
+.classic li{
+	display: flex;
+}
+.li_optical,.li_sungless{
+	margin-bottom: 32px;
+}
+.photo{
+	width:635px;
+	height:320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.photo img,.photo div{
+	display: none;
+}
+.optical{
+	background-image: url('../img/optical.jpg');
+	background-position: 0 -200px;
+	background-size:cover;
+}
+.sungless{
+	background-image: url('../img/sunglasses.jpg');
+	background-position: 0 -160px;
+	background-size:cover;
+	-webkit-filter:grayscale(1);
+}
+.functional{
+	background-image: url('../img/functional.png');
+	background-size:cover;
+}
+.logo{
+	margin-left: 30px;
+	margin-right: 8px;
+	align-self: center;
+}
+.optical_logo{
+	width: 48px;
+	height: 38px;
+	
+}
+.sungless_logo{
+	width: 48px;
+	height: 48px;
+	margin-left: 91px;
+}
+.functional_logo{
+	width: 35px;
+	height: 48px;
+}
+.li_sungless h3{
+	padding-right: 30px;
+}
+.classic h3{
+	align-self: center;
+}
+@media(max-width:1200px){
+	.sungless_logo{
+		margin-left: 0;
+	}
+}
+
+@media(max-width:992px){
+	.classic{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.photo{
+		width:390px;
+		height:168px;
+	}
+	.optical{
+		background-position: 0 -150px;
+		background-size:390px 488px;
+	}
+	.sungless{
+		background-position: 0 -105px;
+		background-size:390px 585px;
+	}
+	.functional{
+		background-size:390px 168px;
+	}
+	.optical_logo{
+		width: 32px;
+		height: 25px;
+	}
+	.sungless_logo{
+		width: 32px;
+		height: 32px;
+		margin-left: 30px;
+	}
+	.functional_logo{
+		width: 23px;
+		height: 32px;
+	}
+
+	.li_optical,.li_sungless{
+		margin-bottom: 8px;
+	}
+	.li_sungless .logo{
+		order:2;
+	}
+	.li_sungless h3{
+		order:3;
+	}
+	.li_sungless .photo{
+		order:1;
+	}
+}
+
+@media(max-width:767px){
+
+
+	.classic{
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.photo{
+		width:345px;
+		height:134px;
+		margin:0 auto;
+	}
+	.photo img,.photo div{
+		display: block;
+	}
+	.photo div{
+		font-size:28px;
+		line-height: 37px;
+		color: white;
+	}
+	.optical img{
+		width: 32px;
+		height: 25px;
+		margin-right: 8px;
+	}
+	.sungless img{
+		width: 32px;
+		height: 32px;
+		margin-right: 8px;
+	}
+	.functional img{
+		width: 23px;
+		height: 32px;
+		margin-right: 8px;
+	}
+	.optical{
+		background-position: 0 -130px;
+		background-size:345px 432px;
+	}
+	
+	.sungless{
+		background-position: 0 -105px;
+		background-size:345px 517px;
+	}
+	
+	.functional{
+		background-size:345px 149px;
+	}
+
+
+	.logo{
+		display: none;
+	}
+
+	.li_optical h3{
+		display: none;
+	}
+	
+	.li_sungless h3{
+		display: none;
+	}
+	
+	.li_functional h3{
+		display: none;
+	}
+
+}
+
+
+
+.index_banner{
+	background: url('../img/index_banner.jpg') no-repeat padding-box;
+	color: #650300;
+	background-position: center;
+	background-size: cover;
+	text-align: right;	
+}
+
+
+
+.joint_design{
+    margin-bottom: 64px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-image: url('../img/joint.jpg');
+    background-repeat: no-repeat;
+}
+.joint_design h2{
+	color: white;
+	padding-top: 64px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.joint_pic{
+    width: 540px;
+    height:474px;  
+	color: #AA0601;
+    font-size: 72px;
+    line-height: 474px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.doubleA{
+	background: url('../img/doubleA.jpg');
+    margin-right: 30px;
+    background-size: cover;
+	background-position:center;
+}
+.youth{
+    background: url('../img/youth.jpg');
+    background-size: cover;
+	background-position:center;
+}
+@media(max-width:1200px)
+{
+    .joint_pic{
+        height: 40vw;
+        line-height: 40vw;
+    }
+}
+@media(max-width:992px)
+{
+    .joint_design{
+        padding-bottom: 40px;
+    }
+    .joint_pic{
+        font-size: 32px;
+    }
+}
+@media(max-width:767px)
+{
+    .joint_design{
+        padding-bottom: 32px;
+    }
+    .joint_pic{
+        line-height: 284px;
+        width: 345px;
+        height:284px;
+        margin:0 auto;
+    }
+    .doubleA{
+        margin-bottom:16px ;
+    }
+    .img-container{
+        flex-direction: column;
+        width: 100%;
+        margin : 0 auto;
+    }
+}
+
+
+
+.contact{
+	background-color: #AA06010D;
+	padding-bottom: 80px;
+	padding-top: 64px;
+}
+.contact-inner{
+	margin: 0 auto;
+	width: 730px;
+}
+.contact h2{
+	color: black;
+	padding-bottom: 24px;
+}
+.contact p{
+	padding-bottom: 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.contact label{
+	padding-bottom: 4px;
+	font-size: 16px;
+	line-height: 24px;
+}
+.contact input[type="text"]{
+	width :100%;
+	background-color: #AA06010D;
+	margin-bottom: 16px;
+    height: 50px;
+    padding: 0px;
+}
+textarea{
+	width: 100%;
+	background-color: #AA06010D;
+    margin-bottom: 16px;
+    width: 730px;
+    height: 136px;
+    padding: 0px;
+}
+.contact .check{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 42px;
+}
+button{
+	background-color: #AA0601;
+	color: white;
+	width: 350px;
+	height: 54px;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+}
+button:hover{
+	background-color: rgb(210, 37, 31);
+}
+@media(max-width:992px)
+{
+    .contact{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .contact-inner{
+        width: 450px;
+    }
+    .contact h2{
+        padding-bottom: 16px;
+    }
+    .contact p{
+        padding-bottom: 12px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact label{
+        padding-bottom: 2px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contact input[type="text"]{
+        margin-bottom: 8px;
+        height: 36px;
+    }
+    textarea{
+        width: 450px;
+        height: 100px;
+        margin-bottom: 8px;
+    }
+    .contact .check{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    button{
+        width: 210px;
+        height: 36px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .contact{
+        padding-bottom: 32px;
+        padding-top: 32px;
+    }
+    .contact-inner{
+        width: 345px;
+    }
+    .contact h2{
+        font-size: 20px;
+		line-height: 28px;
+        padding-bottom: 20px;
+    }
+    .contact p{
+        padding-bottom: 8px;
+    }
+    textarea{
+        width: 345px;
+        height: 100px;
+        margin-bottom: 8px;
+    }
+    .contact .check{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 24px;
+    }
+    button{
+        width: 165px;
+        height: 36px;
+    }
+}
+
+
+.sale
+{
+	padding-top: 64px;
+	background-color: #AA06010D;
+	padding-bottom: 80px;
+}
+.sale ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.sale li{
+	width: 25%;
+}
+.sale img{
+	margin: 0 auto;
+	display:block;
+}
+.sale p{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 auto;
+	width: 208px;
+}
+
+.sale .price img ,.sale .time img{
+	
+	margin-bottom: 40px;
+}
+.sale .service img{
+	padding-top: 3px;
+	margin-bottom: 43px;
+	
+}
+.sale .about img{
+	padding-top: 15px;
+	margin-bottom: 55px;
+	
+}
+
+@media(max-width:992px){
+	.sale{
+		padding-top: 40px;
+	}
+
+	.sale li{
+		width: 50%;
+	}
+	.sale .price{
+		order: 3;
+		margin-top: 40px;
+	}
+	.sale .time{
+		order: 1;
+	}
+	.sale .service{
+		order: 2;
+	}
+	.sale ul .about{
+		order: 4;
+		margin-top: 40px;
+	}
+
+	.sale .price img{
+		width: 80px;
+		height: 79px;
+		margin-bottom: 15.6px;
+	}
+	.sale .time img {
+		width: 80px;
+		height: 80px;
+		margin-bottom: 16px;
+	}
+	.sale .service img{
+		width: 80px;
+		height: 75px;
+		margin-bottom: 18.8px;
+	}
+	.sale .about img{
+		width: 80px;
+		height: 56px;
+		padding-top: 12px;
+		margin-bottom: 27px;
+	}
+	.sale p{
+		width: 237px;
+	}
+}
+
+@media(max-width:767px){
+	.sale
+	{
+		padding-top: 32px;
+		padding-bottom: 52px;
+	}
+	.sale li{
+		width: 100%;
+	}
+
+	.sale .service{
+		margin-top: 40px;
+	}
+}

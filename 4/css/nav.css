@@ -17,7 +17,7 @@
 	display:flex;
 	flex-direction: row;
 	flex-wrap:  wrap;
-	margin-right: 88px;
+	margin-right: 56px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
@@ -25,13 +25,14 @@
 .nav li{
 	font-size: 20px;
 	line-height: 30px;
-	margin-right: 64px;
+	
 }
 
 .nav li a{
 	color: #FFFFFF;
 	text-decoration:none;
 	display: block;
+	padding: 0 32px;
 }
 .nav li a:hover{
 	color: blue;
@@ -42,11 +43,11 @@
 	.nav .logo-new{
 		padding-left:39px;
 	}
-	.nav li{
-		margin-right: 40px;
+	.nav li a{
+		padding: 0 20px;
 	}
 	.nav ul{
-		margin-right: 39px;
+		margin-right: 19px;
 	}
 }
 
