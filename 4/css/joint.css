@@ -29,7 +29,7 @@
 
 .joint_pic{
 	width: 540px;
-	height: 472px;
+	height: auto;
 	color: #AA0601;
 	font-size: 72px;
     text-align: center;

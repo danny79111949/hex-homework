@@ -1,0 +1,108 @@
+.problem_banner{
+	background-image: url('../img/problem_banner.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position:63% 0;
+}
+
+.problem_banner .title{
+    color: black;
+    font-size:64px;
+    line-height:90px;
+    padding-top: 214px;
+    position: relative;
+}
+
+.problem_banner img{
+    margin-left:24px;
+    position: relative;
+    top:7px;
+}
+
+.content{
+    padding-top: 80px;
+    padding-bottom: 264px;
+}
+
+.content ul li{
+    margin-bottom: 40px;
+}
+
+.content ul div{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.content ul li p{
+    padding-left: 95px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.line{
+    display: none;
+}
+
+@media(max-width:992px)
+{
+    .problem_banner{
+        background-position:37% ;
+    }
+    .problem_banner .title{
+        font-size:48px;
+        line-height:67px;
+        padding-top: 237px;
+    }
+    .problem_banner img{
+        width:48px;
+        height: 48px;
+        margin-left:16px;
+        top:9px;
+    }
+    .content{
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+    .content ul li p{
+        padding-left: 59px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .problem_banner{
+        background-position:37% ;
+    }
+    .problem_banner .title{
+        font-size:28px;
+        line-height:40px;
+        padding-top: 103px;
+    }
+    .problem_banner img{
+        width:24px;
+        height: 20px;
+        margin-left:8px;
+        top:0px;
+    }
+    .content ul li{
+        margin-bottom: 24px;
+    }
+    .content{
+        padding-top: 24px;
+        padding-bottom: 36px;
+    }
+    .content ul div{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .content ul li p{
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .line{
+        display: block;
+    }
+}
