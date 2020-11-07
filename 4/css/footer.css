@@ -22,7 +22,9 @@ footer  a:hover{
 footer .menu{
 	padding-top: 48px;
 	margin-bottom: 32px;
+	display: flex;
 }
+
 footer .menu li{
 	font-size: 16px;
 	line-height: 24px;
@@ -32,6 +34,7 @@ footer .menu li{
 
 footer .social{
 	padding-top: 36px;
+	display: flex;
 }
 
 footer .social li{
@@ -50,6 +53,7 @@ footer p a{
 }
 
 footer p{
+	display: flex;
 	position: relative;
 }
 
@@ -58,14 +62,13 @@ footer .phone{
 	height: 44px;
 	margin-right: 17px;
 	position: relative;
-	top: 6px;
+	
 }
 footer .mail{
 	width: 48px;
 	height: 48px;
 	margin-right: 12px;
 	position: relative;
-	top: 11px;
 }
 
 .down{
@@ -82,10 +85,10 @@ footer .mail{
 
 .down .right{
 	padding-top: 16px;
+	display:flex;
 }
 
 .down .right div{
-	display: inline;
 	margin-right: 62px;
 	font-size: 14px;
 	line-height: 21px;
@@ -186,6 +189,9 @@ footer .mail{
 	.down .right div{
 		display: block;
 	}
+	.down .right{
+		flex-direction:column;
+	}
 	.down .left  {
 		flex-direction: row-reverse;
 		justify-content: space-between;
@@ -197,6 +203,6 @@ footer .mail{
 		width: 46px;
 		height: 28px;
 		position: relative;
-		top:60px;
+		top:40px;
 	}
 }

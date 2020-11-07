@@ -27,19 +27,19 @@
 .optical{
 	background-image: url('../img/optical.jpg');
 	background-position: 0 -200px;
-	background-size:650px 813px;
+	background-size:cover;
 }
 
 .sungless{
 	background-image: url('../img/sunglasses.jpg');
 	background-position: 0 -160px;
-	background-size:650px 975px;
+	background-size:cover;
 	-webkit-filter:grayscale(1);
 }
 
 .functional{
 	background-image: url('../img/functional.png');
-	background-size:650px 320px;
+	background-size:cover;
 }
 
 .logo{

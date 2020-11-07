@@ -53,6 +53,12 @@ h6{
 	margin: 0 auto;
 }
 
+a
+{
+	display:block;
+	padding: 1px;
+}
+
 .nav .last ,
 footer .menu .last,
 footer .social .last ,
@@ -61,7 +67,7 @@ footer .social .last ,
 	padding-right: 0;
 }
 
-@media(max-width:1260px){
+@media(max-width:1200px){
 	.container{
 		width: 90%;
 	}
