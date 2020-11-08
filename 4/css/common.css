@@ -100,7 +100,6 @@ h6{
 
 a{
 	display:block;
-	padding: 1px;
 }
 
 .nav .last ,
@@ -113,7 +112,7 @@ footer .social .last ,
 
 @media(max-width:1200px){
 	.container{
-		width: 90%;
+		width: 95%;
 	}
 }
 
@@ -145,6 +144,7 @@ footer .social .last ,
 		line-height: 30px;
 		padding-bottom: 8px;
 	}
+
 }
 
 @media(max-width:767px){
@@ -170,6 +170,15 @@ footer .social .last ,
 		font-size: 20px;
 		line-height: 28px;
 		margin-bottom: 12px;
+	}
+	.container{
+		max-width: 690px;
+	}
+}
+
+@media(max-width:368px){
+	.container{
+		max-width: 345px;
 	}
 }
 
