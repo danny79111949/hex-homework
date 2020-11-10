@@ -1,0 +1,45 @@
+.store_banner{
+	background-image: url('../img/glasses_banner.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position:63% 0;
+}
+
+.store_banner .title{
+    color: black;
+    font-size:64px;
+    line-height:90px;
+    padding-top: 214px;
+    position: relative;
+}
+
+.store_banner img{
+    margin-left:24px;
+    position: relative;
+    top:7px;
+}
+
+.content{
+    padding-top: 16px;
+    padding-bottom: 304px;
+}
+
+.choice_location{
+    font-size: 24px;
+    line-height: 33px;
+}
+
+select{
+    font-size: 18px;
+    line-height: 25px;
+    color:#495057;
+    width: 324px;
+    height: 45px;
+    padding-left: 19px;
+    margin-left: 20px;
+    margin-bottom: 32px;
+}
+
+.store_list{
+    display:flex;
+}

@@ -105,7 +105,8 @@ a{
 .nav .last ,
 footer .menu .last,
 footer .social .last ,
-.down .right .last{
+.down .right .last
+{
 	margin-right: 0;
 	padding-right: 0;
 }

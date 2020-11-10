@@ -251,7 +251,8 @@
 @media(max-width:767px)
 {
     .joint_design{
-        padding-bottom: 32px;
+		padding-bottom: 32px;
+		margin-bottom: 32px;
     }
     .joint_pic{
         line-height: 284px;
@@ -513,8 +514,9 @@ button:hover{
 	border-left: 1px solid #DEE2E6;
 	border-right: 1px solid #DEE2E6;
 	border-bottom: 1px solid #DEE2E6;
-	width:253px;
+	width:255px;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 .recommand_content div{
 	font-size:14px;
@@ -557,15 +559,23 @@ button:hover{
 	margin-right: 30px;
 }
 
+.customer-recommand li:nth-child(4){
+	margin-right:0px;
+}
+
 @media(max-width:1200px){
 	.customer-recommand ul li{
-		width: 22vw;
+		width: 21vw;
 	}
+
 	.customer-photo{
-		width: 22vw;
+		width: 21vw;
 	}
 	.recommand_content{
-		width:22vw;
+		width:21vw;
+	}
+	.recommand_content p{
+		width:17vw;
 	}
 	
 }
@@ -574,7 +584,7 @@ button:hover{
 @media(max-width:992px)
 {
 	.customer-recommand ul li{
-		width:50%;
+		width:330px;
 		margin-bottom: 28px;
 	}
 	.customer-photo{
@@ -589,6 +599,7 @@ button:hover{
 	}
 	.recommand_content p{
 		padding-bottom: 16px;
+		width:298px;
 	}
 	.recommand_content .last_update{
 		padding-bottom: 16px;
@@ -596,11 +607,32 @@ button:hover{
 	.customer-recommand{
 		margin-bottom: 41px;
 	}
+	.customer-recommand li:nth-child(2n){
+		margin-right:0px;
+	}
 }
 
 @media(max-width:767px)
 {
-	.customer-recommand ul li{
-		width:100%;
+	.customer-recommand{
+		margin-bottom: 4px;
+	}
+	.customer-recommand li:nth-child(2n){
+		margin-right:30px;
+	}
+	.customer-recommand li{
+		width:345px;
+		
+	}
+	.customer-photo{
+		width: 345px;
+		height: 259px;
+	}
+	.recommand_content{
+		width:345px;
+	}
+	.recommand_content p{
+		
+		width:313px;
 	}
 }
