@@ -113,7 +113,7 @@ footer .social .last ,
 
 @media(max-width:1200px){
 	.container{
-		width: 95%;
+		width: 96%;
 	}
 }
 
@@ -172,9 +172,7 @@ footer .social .last ,
 		line-height: 28px;
 		margin-bottom: 12px;
 	}
-	.container{
-		max-width: 690px;
-	}
+	
 }
 
 @media(max-width:368px){
