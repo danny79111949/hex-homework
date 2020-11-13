@@ -300,22 +300,22 @@
 	background-color: #AA06010D;
 	margin-bottom: 16px;
     height: 50px;
-    padding: 0px;
+	padding: 0px;
 }
+
 textarea{
 	width: 100%;
 	background-color: #AA06010D;
     margin-bottom: 16px;
     width: 730px;
     height: 136px;
-    padding: 0px;
 }
 .contact .check{
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 42px;
 }
-button{
+input[type="submit"]{
 	background-color: #AA0601;
 	color: white;
 	width: 350px;
@@ -324,7 +324,7 @@ button{
 	display: block;
 	cursor: pointer;
 }
-button:hover{
+input[type="submit"]:hover{
 	background-color: rgb(210, 37, 31);
 }
 @media(max-width:992px)
@@ -363,7 +363,7 @@ button:hover{
         line-height: 21px;
         margin-bottom: 20px;
     }
-    button{
+    input[type="submit"]{
         width: 210px;
         height: 36px;
     }
@@ -396,7 +396,7 @@ button:hover{
         line-height: 21px;
         margin-bottom: 24px;
     }
-    button{
+    input[type="submit"]{
         width: 165px;
         height: 36px;
     }

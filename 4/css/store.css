@@ -14,6 +14,8 @@
 }
 
 .store_banner img{
+    width: 40px;
+    height: 58px;
     margin-left:24px;
     position: relative;
     top:7px;
@@ -147,6 +149,12 @@ select{
         line-height:67px;
         padding-top: 237px;
     }
+    .store_banner img{
+        width: 30.5px;
+        height: 43.8px;
+        margin-left:16px;
+        top:7px;
+    }
     .content{
         padding-top: 8px;
         padding-bottom: 84px;
@@ -233,8 +241,17 @@ select{
         line-height:40px;
         padding-top: 103px;
     }
+    .store_banner img{
+        width: 16.7px;
+        height: 24px;
+        margin-left:8px;
+        top:5px;
+    }
     .content{
         padding-bottom: 40px;
+    }
+    select{
+        margin-bottom: 20px;
     }
     .store_list .store_photo{
         width: 345px;
