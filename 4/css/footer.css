@@ -3,7 +3,7 @@ footer{
 	color: white;
 }
 
-footer .up{
+footer .up_seprator{
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid #FFFFFF;
@@ -15,7 +15,7 @@ footer a{
     text-decoration:none;
 }
 
-footer  a:hover{
+footer a:hover{
 	color: blue;
 }
 
@@ -71,25 +71,27 @@ footer .mail{
 	position: relative;
 }
 
-.down{
+.down_seprator{
 	padding-top: 24px;
 	padding-bottom: 28px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.down .left{
+.down_seprator .copyright_section{
 	display: flex;
 	position: relative;
 }
 
-.down .right{
+.privacy_service_section{
 	padding-top: 16px;
 	display:flex;
 }
-
-.down .right div{
+.privacy{
 	margin-right: 62px;
+}
+.privacy_service_section div{
+	
 	font-size: 14px;
 	line-height: 21px;
 }
@@ -102,7 +104,7 @@ footer .mail{
 }
 
 
-@media(max-width:929px){
+@media(max-width:992px){
 	footer .menu{
 		padding-top: 40px;
 	}
@@ -128,32 +130,33 @@ footer .mail{
 		font-size: 20px;
 		line-height: 30px;
 	}
-	footer .up{
+	.up_seprator{
 		padding-bottom: 27px;
 	}
-	footer .down img{
+	.down_seprator img{
 		display: none;
 	}
 	.copyright{
 		margin-left: 0;
 		padding-top: 0px;
 	}
-	.down .right{
+	.privacy_service_section{
 		padding-top: 1px;
 	}
-	.down .right div{
+	.privacy{
 		margin-right: 24px;
 	}
-	.down {
+
+	.down_seprator {
 		padding-bottom: 40px;
 	}
 }
 
 @media(max-width:767px){
-	footer .up .left .menu{
+	.up_seprator .menu{
 		display: none;
 	}
-	footer .up .left{
+	.up_seprator .left{
 		padding-top: 23px;
 	}
 	footer .social{
@@ -175,32 +178,30 @@ footer .mail{
 		font-size: 16px;
 		line-height: 30px;
 	}
-	.down{
+	.down_seprator{
 		padding-top: 18px;
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 25px;
 	}
-	footer .down img{
+	.down_seprator img{
+		display: block;
+		width: 46px;
+		height: 28px;
+		position: relative;
+		top:40px;
+	}
+	.privacy_service_section div{
 		display: block;
 	}
-	.down .right div{
-		display: block;
-	}
-	.down .right{
+	.privacy_service_section{
 		flex-direction:column;
 	}
-	.down .left  {
+	.copyright_section  {
 		flex-direction: row-reverse;
 		justify-content: space-between;
 	}
 	.privacy{
 		padding-bottom: 8px;
-	}
-	.down .left  img{
-		width: 46px;
-		height: 28px;
-		position: relative;
-		top:40px;
 	}
 }
