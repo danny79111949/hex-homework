@@ -1,4 +1,4 @@
-
+@import "variable.scss";
 
 h1
 {
@@ -16,6 +16,10 @@ h2{
     padding-right: 7px;
 }
 
+.dblock{
+    display: block;
+}
+
 .dflex{
     display: flex;
 }
@@ -23,6 +27,9 @@ h2{
     justify-content: space-between;
 }
 
+.pointer{
+    cursor: pointer;
+}
 
 .pos_relative{
     position: relative;
@@ -91,4 +98,22 @@ h2{
     height: 20px;
     margin-left: 34.27px;
     margin-right: 18.28px;
+}
+
+.arrow_down{
+    width: 24px;
+    height: 24px;
+    margin-top: 37px;
+    margin-right: 563px;
+}
+.search{
+    width: 24px;
+    height: 24px;
+    margin-top: 37px;
+    margin-right: 26.03px;
+}
+.notifications{
+    width: 19.94px;
+    height: 19.5px;
+    margin-top: 39.5px;
 }
