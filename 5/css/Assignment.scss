@@ -14,28 +14,75 @@ h2{
     line-height: 19px;
     padding-right: 7px;
 }
+a{
+    display:block;
+    color: black;
+    text-decoration:none;
+}
 
 .dblock{
     display: block;
 }
-
 .dflex{
     display: flex;
 }
 .space_between{
     justify-content: space-between;
 }
-
 .pointer{
     cursor: pointer;
 }
-
 .pos_relative{
     position: relative;
 }
+.bg_green200{
+    background-color:$green200;
+}
+.ft_color400{
+    color:$green400;
+}
+.ft_wt{
+    font-weight: bold;
+}
+.align_right{
+    text-align: right;
+}
+.align_left{
+    text-align: left;
+}
+.pl_12px{
+    padding-left: 12px;
+}
+.pl_16px{
+    padding-left: 16px;
+}
+.pr_12px{
+    padding-right: 12px;
+}
+.mr_8px{
+    margin-right: 8px;
+}
+.mr_16px{
+    margin-right: 16px;
+}
+.mr_32px{
+    margin-right: 32px;
+}
+.ml_16px{
+    margin-left: 16px;
+}
+.mb_16px{
+    margin-bottom: 16px;
+}
+.mt_16px{
+    margin-top: 16px;
+}
+.green300_boder{
+    border: 1px solid $green300;
+}
+
 
 .menu_section{
-    background-color:#EDF4EE;
     width: 296px;
 }
 .answer_logo{
@@ -74,7 +121,6 @@ h2{
     margin-left: 35px;
     margin-right: 19px;
     top: -1px;
-    
 }
 
 .course{
@@ -99,7 +145,6 @@ h2{
     margin-right: 18.28px;
 }
 
-
 .content_section{
     width: 920px;
     margin: 0 auto;
@@ -120,4 +165,80 @@ h2{
     width: 19.94px;
     height: 19.5px;
     margin-top: 39.5px;
+}
+
+table{
+    width: 320px;
+}
+
+.all_hw{
+    font: normal normal bold 16px/19px Lato;
+    margin-bottom: 6px;
+}
+.chapter{
+    font: normal normal normal 12px/15px Lato;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    
+}
+.note{
+    font: normal normal bold 16px/19px Lato;
+    margin-bottom: 12px;
+}
+.complete_time{
+    font: normal normal normal 12px/15px Lato;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.student_name{
+    font: normal normal normal 12px/15px Lato;
+    color: $gray200;
+    margin-bottom: 12px;
+}
+.hw_section{
+    width: 584px;
+    border: 1px solid $green300;
+}
+.comment{
+    font: normal normal normal 12px/15px Lato;
+    color:$gray100;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+.hw_header{
+    border-bottom: 1px solid $green300;
+}
+.hw_title{
+    font: normal normal normal 12px/15px Lato;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.problem{
+    font: normal normal bold 16px/19px Lato;
+    margin-bottom: 12px;
+}
+.msg{
+    font: normal normal normal 14px/21px Lato;
+}
+.student_photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.msg_name{
+    font: normal normal bold 16px/19px Lato;
+    margin-top: 17px;
+    margin-bottom: 4px;
+}
+.msg_time{
+    font: normal normal normal 12px/15px Lato;
+    color:$gray200;
+}
+
+.file_link{
+    font: normal normal bold 16px/19px Lato;
+    padding-right: 16px;
+    padding-left: 12px;
+    padding-top: 11px;
+    padding-bottom: 10px;
 }

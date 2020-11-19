@@ -8,38 +8,37 @@
     <link rel="stylesheet" href="css/Assignment.css">
 </head>
 <body>
-
     <div class="dflex">
-        <div class="menu_section">
+        <div class="menu_section bg_green200">
             <img src="img/logo-ANSWER.png" class="answer_logo"/>
             
             <ul class="menu list-unstyled">
                 <li class="dflex pos_relative">
                     <img src="img/dashboard.svg" class="Dashboard pos_relative"/>
-                    <div>Dashboard</div>
+                    <div class="ft_wt"><a href="#">Dashboard</a></div>
                 </li>
                 <li class="dflex">
                     <img src="img/question.svg" class="question"/>
-                    <div>Question</div>
+                    <div class="ft_wt"><a href="#">Question</a></div>
                 </li>
                 <li class="dflex pos_relative">
                     <img src="img/assignment.svg" class="assignment pos_relative"/>
-                    <div>Assignment</div>
+                    <div class="ft_wt"><a href="#" class="ft_color400">Assignment</a></div>
                 </li>
                 <li class="dflex">
                     <img src="img/course.svg" class="course"/>
-                    <div>Course</div>
+                    <div class="ft_wt"><a href="#">Course</a></div>
                 </li>
                 <li class="dflex pos_relative">
                     <img src="img/group.svg" class="admin pos_relative"/>
-                    <div>Admin</div>
+                    <div class="ft_wt"><a href="#">Admin</a></div>
                 </li>
                 <li class="dflex">
                     <img src="img/settings.svg" class="settings"/>
-                    <div>Settings</div>
+                    <div class="ft_wt"><a href="#">Settings</a></div>
                 </li>
             </ul>
-            <div class="user">
+            <div class="teacher">
                 <div class="photo"></div>
                 <div class="name"></div>
                 <div class="email"></div>
@@ -56,13 +55,89 @@
                     <img src="img/search.svg" class="dblock pointer search"/>
                     <img src="img/notifications.svg" class="dblock pointer notifications"/>
                 </div>
-                
             </div>
-            
+            <div class="content dflex">
+                <div>
+                    <div class="all_hw">All (4)</div>
+                    <table class="mr_16px">
+                        <tr class="green300_boder">
+                            <td class="dflex space_between bg_green200">
+                                <div class="pl_12px">
+                                     <div class="chapter">Chapter Assignment 2</div>
+                                     <div class="note">Please check this file…</div>
+                                </div>
+                                <div class="pr_12px">
+                                    <div class="complete_time align_right">4 hrs ago</div>
+                                    <div class="student_name align_right">Emily Wang</div>
+                               </div>
+                            </td>
+                        </tr>
+                        <tr class="green300_boder">
+                            <td class="dflex space_between">
+                                <div class="pl_12px">
+                                     <div class="chapter">Chapter Assignment 1</div>
+                                     <div class="note">My Homework</div>
+                                </div>
+                                <div class="pr_12px">
+                                    <div class="complete_time align_right">12 hrs ago</div>
+                                    <div class="student_name align_right">David Xu</div>
+                               </div>
+                            </td>
+                        </tr>
+                        <tr class="green300_boder">
+                            <td class="dflex space_between">
+                                <div class="pl_12px">
+                                     <div class="chapter">Final Assignment</div>
+                                     <div class="note">Have a problem with this…</div>
+                                </div>
+                                <div class="pr_12px">
+                                    <div class="complete_time align_right">18 hrs ago</div>
+                                    <div class="student_name align_right">Tony Wei</div>
+                               </div>
+                            </td>
+                        </tr>
+                        <tr class="green300_boder">
+                            <td class="dflex space_between">
+                                <div class="pl_12px">
+                                     <div class="chapter">Final Assignment</div>
+                                     <div class="note">Did I do it right?</div>
+                                </div>
+                                <div class="pr_12px">
+                                    <div class="complete_time align_right">19 hrs ago</div>
+                                    <div class="student_name align_right">Christina Lin</div>
+                               </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <div class="align_right comment">2 comments</div>
+                    <div class="hw_section green300_boder">
+                        <div class="bg_green200 dflex space_between hw_header">
+                            <div class="pl_16px">
+                                <div class="hw_title">Chapter Assignment 2 / HTML&CSS</div>
+                                <div class="problem">Please check this file for me, thanks!</div>
+                            </div>
+                            <img src=""/>
+                        </div>
+                        <div class="dflex student_msg">
+                            <img src="https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80" 
+                            class="student_photo dblock ml_16px mt_16px mr_8px" alt="student photo"/>
+                            <div>
+                                <div class="msg_name">Emily Wang</div>
+                                <div class="msg_time">10:38 AM (4 hours ago)</div>
+                                <p class="mb_16px mr_32px mt_16px msg">
+                                    Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="bg_green200 ft_color400">div</span> is bigger than the height of the <span class="bg_green200 ft_color400">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br/> 
+                                    What is the gap or extra space below image?
+                                </p>
+                                <button class="green300_boder bg_green200 file_link">HW-2-David.zip</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-
 
 
 
