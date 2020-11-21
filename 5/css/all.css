@@ -478,4 +478,8 @@ td:hover {
   line-height: 17px;
   color: #0000009A;
 }
+
+.tb_admin tr:hover {
+  background-color: #EDF4EE;
+}
 /*# sourceMappingURL=all.css.map */
