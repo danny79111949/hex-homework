@@ -13,7 +13,6 @@
 }
 
 
-
 .pagination li{
     width: 32px;
     font-size: 16;
@@ -25,4 +24,8 @@
 .pagination li:hover{
     background-color: $green400;
     color: white;
+}
+
+.add_admin:hover{
+    color: $green400;
 }
