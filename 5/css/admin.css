@@ -1,4 +1,26 @@
 .tb_admin tr:hover {
   background-color: #EDF4EE;
 }
+
+.admin_photo {
+  width: 141px;
+  height: 141px;
+}
+
+.pagination {
+  left: 500px;
+}
+
+.pagination li {
+  width: 32px;
+  font-size: 16;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pagination li:hover {
+  background-color: #2A8356;
+  color: white;
+}
 /*# sourceMappingURL=admin.css.map */

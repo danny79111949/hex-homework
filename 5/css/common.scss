@@ -1,3 +1,5 @@
+@import "variable.scss";
+
 body{
     font-family: Lato;
 }
@@ -35,6 +37,9 @@ td:hover{
 .space_between{
     justify-content: space-between;
 }
+.end{
+    justify-content: end;
+}
 .pointer{
     cursor: pointer;
 }
@@ -57,6 +62,9 @@ td:hover{
 .ft_g400{
     color:$green400;
 }
+.ft_b900{
+    color:black;
+}
 .ft_wt_b{
     font-weight: bold;
 }
@@ -65,6 +73,9 @@ td:hover{
 }
 .align_left{
     text-align: left;
+}
+.align_center{
+    text-align: center;
 }
 
 .t-1px{
@@ -162,12 +173,18 @@ td:hover{
 .mt_22px{
     margin-top: 22px;
 } 
+.mt_32px{
+    margin-top: 32px;
+}
 .mt_37px{
     margin-top: 37px;
 }
 
 .mb_4px{
     margin-bottom: 4px;
+}
+.mb_12px{
+    margin-bottom: 12px;
 }
 .mb_16px{
     margin-bottom: 16px;
@@ -184,6 +201,9 @@ td:hover{
 .mb_32px{
     margin-bottom: 32px;
 }   
+.mb_63px{
+    margin-bottom: 63px;
+}  
 
 .ml_16px{
     margin-left: 16px;
@@ -221,4 +241,13 @@ td:hover{
 }
 .b_g400_1{
     border: 1px solid $green400;
+}
+
+.content_section{
+    width: 920px;
+    margin-left: 32px;
+}
+
+.float_right{
+    float: right;
 }

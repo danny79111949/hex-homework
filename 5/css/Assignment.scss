@@ -1,9 +1,4 @@
-
-
-.content_section{
-    width: 920px;
-    margin: 0 auto;
-}
+@import "variable";
 
 .arrow_down{
     width: 24px;
@@ -51,7 +46,6 @@
     font-size: 12px;
     line-height: 15px;
     color: $gray200;
-    margin-bottom: 12px;
 }
 .hw_section{
     width: 584px;

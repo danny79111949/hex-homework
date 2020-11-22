@@ -1,7 +1,28 @@
 @import "variable";
 
+
 .tb_admin{
     tr:hover{
         background-color:$green200;
     }
 } 
+
+.admin_photo{
+    width: 141px;
+    height: 141px;
+}
+
+
+
+.pagination li{
+    width: 32px;
+    font-size: 16;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pagination li:hover{
+    background-color: $green400;
+    color: white;
+}
