@@ -1,7 +1,44 @@
+h3{
+    font-size: 32px;
+    line-height: 48px;
+}
+.mb_60px{
+    margin-bottom: 60px;
+}
+
+
 .banner
 {
     height: 100vh;
-    background: url('../img/laura-chouette-Vze5s6SCrI8-unsplash.jpg')  no-repeat padding-box;
+    background: url('../img/laura_chouette.jpg')  no-repeat padding-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.Gabrielle_CHANEL_photo{
+    height: 550px;
+    background: url("../img/Gabrielle_CHANEL.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Au_Gingembre_photo{
+    height: 550px;
+    background: url("../img/Au_Gingembre_photo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.CHANEL_N5_photo{
+    height: 550px;
+    background: url("../img/CHANEL_N5.jpg");
+    background-size: cover;
+    
+}
+
+.annie_spratt_photo{
+    height: 1080px;
+    background: url('../img/annie_spratt.jpg');
     background-size: cover;
     background-position: center;
 }
