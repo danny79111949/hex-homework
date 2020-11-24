@@ -3,8 +3,22 @@ h2 {
   line-height: 48px;
 }
 
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
 .mb_60px {
   margin-bottom: 60px;
+}
+
+.bg_gray200 {
+  background-color: #ccc;
+}
+
+.py_40px {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .banner {
@@ -15,30 +29,65 @@ h2 {
 }
 
 .Gabrielle_CHANEL_photo {
-  height: 550px;
-  background: url("../img/Gabrielle_CHANEL.jpg");
+  height: 350px;
+  background: url("../img/Gabrielle_CHANEL.jpg") no-repeat padding-box;
   background-size: cover;
   background-position: center;
 }
 
 .Au_Gingembre_photo {
-  height: 550px;
-  background: url("../img/Au_Gingembre_photo.png");
+  height: 350px;
+  background: url("../img/Au_Gingembre_photo.png") no-repeat padding-box;
   background-size: cover;
   background-position: center;
 }
 
 .CHANEL_N5_photo {
-  height: 550px;
-  background: url("../img/CHANEL_N5.jpg");
+  height: 350px;
+  background: url("../img/CHANEL_N5.jpg") no-repeat padding-box;
   background-size: cover;
 }
 
 .annie_spratt_photo {
-  height: 1080px;
-  background: url("../img/annie_spratt.jpg");
+  height: 680px;
+  background: url("../img/annie_spratt.jpg") no-repeat padding-box;
   background-size: cover;
   background-position: center;
+}
+
+.Poppy_Barley {
+  height: 100vw;
+  background: url("../img/Poppy_Barley.png") no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.Body_Wash {
+  height: 100vw;
+  background: url("../img/Body_Wash.png") no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .Gabrielle_CHANEL_photo {
+    height: 555px;
+  }
+  .Au_Gingembre_photo {
+    height: 555px;
+  }
+  .CHANEL_N5_photo {
+    height: 555px;
+  }
+  .annie_spratt_photo {
+    height: 1080px;
+  }
+  .Poppy_Barley {
+    height: 32vw;
+  }
+  .Body_Wash {
+    height: 32vw;
+  }
 }
 
 /*!
