@@ -12,13 +12,37 @@ h3 {
   margin-bottom: 60px;
 }
 
-.bg_gray200 {
-  background-color: #ccc;
-}
-
 .py_40px {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.t_0 {
+  top: 0%;
+}
+
+.t_50 {
+  top: 50%;
+}
+
+.l_40 {
+  left: 40%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bg_gray200 {
+  background-color: #ccc;
 }
 
 .banner {
@@ -64,24 +88,47 @@ h3 {
 .Poppy_Barley {
   background: url("../img/Poppy_Barley.png") no-repeat padding-box;
   background-size: cover;
-  background-position: center;
+  background-position: center 90%;
   width: 100%;
   height: 0;
-  padding-top: 154%;
+  padding-top: 110%;
 }
 
 .Body_Wash {
   background: url("../img/Body_Wash.png") no-repeat padding-box;
   background-size: cover;
-  background-position: center;
+  background-position: center 70%;
   width: 100%;
   height: 0;
-  padding-top: 154%;
+  padding-top: 110%;
+}
+
+.Vinegar_Capsule {
+  background: url("../img/Vinegar_Capsule.jpg") no-repeat padding-box;
+  background-size: cover;
+  background-position: center 70%;
+  width: 100%;
+  height: 0;
+  padding-top: 110%;
+}
+
+.filter {
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
   .annie_spratt_photo {
     height: 1080px;
+  }
+  .Poppy_Barley {
+    padding-top: 154%;
+  }
+  .Body_Wash {
+    padding-top: 154%;
+  }
+  .Vinegar_Capsule {
+    padding-top: 154%;
   }
 }
 
