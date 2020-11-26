@@ -1,0 +1,60 @@
+h2{
+    font-size: 32px;
+    line-height: 48px;
+}
+h3{
+    font-size: 24px;
+    line-height: 36px;
+}
+.f1{
+    font-size: 24px;
+    line-height: 36px;
+}
+.f2{
+    font-size: 20px;
+    line-height: 30px;
+}
+.f3{
+    font-size: 16px;
+    line-height: 24px;
+}
+.mb_60px{
+    margin-bottom: 60px;
+}
+.py_40px{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.t_0{
+    top:0%;
+}
+
+.t_50{
+    top:50%;
+}
+.l_40{
+    left:40%;
+}
+
+.text-center{
+    text-align:center;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position:absolute;
+}
+
+.bg_gray200{
+    background-color: $gray100;
+}
+a{
+    cursor: pointer;
+    display:block;
+    padding:5px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
