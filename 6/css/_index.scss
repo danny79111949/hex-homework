@@ -7,28 +7,21 @@
 .Gabrielle_CHANEL_photo{
     background: url("../img/Gabrielle_CHANEL.jpg")  no-repeat padding-box;
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 0;
-    padding-top: 110%;
+    background-position: center 30%;
+    height:350px;
 }
 
 .Au_Gingembre_photo{
-    
     background: url("../img/Au_Gingembre_photo.png")  no-repeat padding-box;
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 0;
-    padding-top: 110%;
+    height:350px;
 }
 
 .CHANEL_N5_photo{
     background: url("../img/CHANEL_N5.jpg")  no-repeat padding-box;
     background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-top: 110%;
+    height:350px;
 }
 
 .annie_spratt_photo{
@@ -71,13 +64,24 @@
     background: url("../img/Bottle_Recycling.jpg")  no-repeat padding-box;
     background-size: cover;
     background-position: center;
-    max-width: 100%;
-    height: 0;
-    padding-top: 76%;
+    height: 520px;
 }
+
 
 @media(min-width:768px)
 {
+    .Gabrielle_CHANEL_photo{
+        height:555px;
+        background-position: center;
+    }
+    
+    .Au_Gingembre_photo{
+        height:555px;
+    }
+    
+    .CHANEL_N5_photo{
+        height:555px;
+    }
     .annie_spratt_photo{
         height:1080px;
     }
