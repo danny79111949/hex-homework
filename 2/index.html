@@ -8,14 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="here">Here’s</div>
+        <div class="header" data-aos="fade-up">
+            <div class="here" >Here’s</div>
             <div class="joanne">JOANNE</div>
             <P>
                 Founder of “XXXD Official’’ <br/>
                 & Graphic Designer
             </P>
-            <div >
+            <div>
                 <a href="#"><img src="img/be.png" class="logo" /></a>
                 <a href="#"><img src="img/fb.png" class="logo" /></a>
                 <a href="#"><img src="img/ig.png" class="logo" /></a>
@@ -23,19 +23,19 @@
             </div>
         </div>
 
-        <div class="about">
-            <div class="title">About</div>
-            <img src="img/photo.png" class="photo"/>
-            <div class="name">Joanne Chen</div>
-            <div class="birth">1997/10/10</div>
-            <p>
+        <div class="about" >
+            <div class="title" data-aos="fade-up">About</div>
+            <img src="img/photo.png" class="photo" data-aos="fade-up"/>
+            <div class="name" data-aos="fade-up">Joanne Chen</div>
+            <div class="birth" data-aos="fade-up">1997/10/10</div>
+            <p data-aos="fade-up">
                 National Hex School Normal University <br/>
                 Department of Visual Design
             </p>
 
-            <hr size="1"/>
+            <hr size="1" data-aos="fade-up"/>
             
-            <div class="experence">
+            <div class="experence" data-aos="fade-up">
                 <div class="content"><div class="circle"></div>Founder of ‘’XXXD Official’’</div>
                 <div class="content"><div class="circle"></div>Graphic Designer</div>
                 <div class="content"><div class="circle"></div>Graphic Intern of Hex School</div>
@@ -43,7 +43,7 @@
             
         </div>
 
-        <div class="brand">
+        <div class="brand" data-aos="fade-up">
             <div class="title">My Brand ‘’XXXD’’</div>
             <div class="content">Just Keep XXXD Everyday</div>
             <p>
@@ -51,15 +51,15 @@
                 引領叛逆少年開啟與社會對話的窗口<br/>
                 主打概念潮流T-Shirt
             </p>
-            <img src="img/brand1.png" class="braand1"/>
-            <div class="img-container">
+            <img src="img/brand1.png" class="braand1" data-aos="fade-up"/>
+            <div class="img-container" data-aos="fade-up">
                 <img src="img/brand2.png" class="braand2"/>
                 <img src="img/brand3.png" class="braand3"/>
             </div>
             
         </div>
 
-        <div class="other-work">
+        <div class="other-work" >
             <div class="title">Other Works</div>
             <p >
                 2016-2020 年累積的作品 <br/>
@@ -67,35 +67,35 @@
             </p>
             <div class="work-container">
                 <ul>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work1.png" alt="" class="space" width="384" height="528"></a>
                         <div class="describe">海報設計/2017</div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work2.png" alt="" class="space" width="384" height="528"></a>
                         <div class="describe">海報設計/2018</div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work3.png" alt=""  width="384" height="528"></a>
                         <div class="describe">海報設計/2018</div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work4.png" alt="" class="space" width="588" height="424"></a>
                         <div class="describe">概念攝影/2018</div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work5.png" alt=""  width="588" height="424"></a>
                         <div class="describe">概念攝影/2018</div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work6.png" alt="" class="space" width="384" height="280"></a>
                         <div class="describe">sasa 酒標設計/2019</div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work7.png" alt="" class="space" width="384" height="280"></a>
                         <div class="describe">攝影創作/2018</div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up">
                         <a href="#"><img src="img/work8.png" alt=""  width="384" height="280"></a>
                         <div class="describe">官網設計/2020</div>
                     </li>
@@ -112,6 +112,30 @@
         </div>
     </div>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 800, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
     
 </body>
 </html>
