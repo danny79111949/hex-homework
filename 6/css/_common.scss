@@ -1,3 +1,8 @@
+h1{
+    font-size: 32px;
+    line-height: 48px;
+}
+
 h2{
     font-size: 32px;
     line-height: 48px;
@@ -7,8 +12,8 @@ h3{
     line-height: 36px;
 }
 .f1{
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 30px;
 }
 .f2{
     font-size: 20px;
@@ -19,15 +24,23 @@ h3{
     line-height: 24px;
 }
 .f4{
+    font-size: 16px;
+    line-height: 19px;
+}
+.f5{
     font-size: 14px;
     line-height: 16px;
 }
-.mb_60px{
-    margin-bottom: 60px;
-}
+
 .py_40px{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.pt_23px{
+    padding-top: 23px;
+}
+.pt_32px{
+    padding-top: 32px;
 }
 
 .pl_51px{
@@ -41,7 +54,16 @@ h3{
     padding-left: 100px;
     padding-right: 100px;
 } 
+.mb_40px{
+    margin-bottom: 40px;
+}
+.mb_32px{
+    margin-bottom: 32px;
+}
 
+.mt_32px{
+    margin-top: 32px;
+}
 
 .t_0{
     top:0%;
@@ -86,6 +108,10 @@ img{
     display:block;
 }
 
+.logo{
+    height: 38px;
+}
+
 .cancel{
     text-decoration: line-through;
 }
@@ -99,5 +125,24 @@ img{
     border: 2px solid #FFFFFF;
 }
 @media(min-width:768px){
-
+    h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .f1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .mb_md_60px{
+        margin-bottom: 60px;
+    }
+    .mb_md_40px{
+        margin-bottom: 40px;
+    }
+    .pt_md_40px{
+        padding-top: 40px;
+    }
+    .mb_md_0{
+        margin-bottom: 0px;
+    }
 }
