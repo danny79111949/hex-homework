@@ -31,6 +31,10 @@ h3{
     font-size: 14px;
     line-height: 16px;
 }
+.f6{
+    font-size: 12px;
+    line-height: 14px;
+}
 
 .py_40px{
     padding-top: 40px;
@@ -72,6 +76,9 @@ h3{
 .mt_32px{
     margin-top: 32px;
 }
+.ml_32px{
+    margin-left: 32px;
+}
 .t_4px{
     top:4px;
 }
@@ -87,12 +94,18 @@ h3{
 .l_40{
     left:40%;
 }
+.l_80{
+    left:80%;
+}
 
 .ft_g200{
     color:$gray200;
 }
 .bg_g100{
     background-color: $gray100;
+}
+.bg_g300{
+    background-color: $gray300;
 }
 .border_radius_30{
     border-radius: 30px;

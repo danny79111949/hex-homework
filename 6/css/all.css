@@ -10849,6 +10849,11 @@ h3 {
   line-height: 16px;
 }
 
+.f6 {
+  font-size: 12px;
+  line-height: 14px;
+}
+
 .py_40px {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -10899,6 +10904,10 @@ h3 {
   margin-top: 32px;
 }
 
+.ml_32px {
+  margin-left: 32px;
+}
+
 .t_4px {
   top: 4px;
 }
@@ -10919,12 +10928,20 @@ h3 {
   left: 40%;
 }
 
+.l_80 {
+  left: 80%;
+}
+
 .ft_g200 {
   color: #8D8D8D;
 }
 
 .bg_g100 {
   background-color: #E0E0E0;
+}
+
+.bg_g300 {
+  background-color: #707070;
 }
 
 .border_radius_30 {
