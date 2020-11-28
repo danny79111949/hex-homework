@@ -36,6 +36,15 @@ h3{
     line-height: 14px;
 }
 
+.px_4px{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.py_1px{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
 .py_40px{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -94,8 +103,8 @@ h3{
 .l_40{
     left:40%;
 }
-.l_80{
-    left:80%;
+.l_60{
+    left:60%;
 }
 
 .ft_g200{
@@ -109,6 +118,13 @@ h3{
 }
 .border_radius_30{
     border-radius: 30px;
+}
+.menu{
+    z-index: 1;
+}
+.mark{
+    border-radius: 90%;
+    z-index: 1;
 }
 a{
     cursor: pointer;
