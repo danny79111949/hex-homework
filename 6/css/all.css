@@ -10910,18 +10910,6 @@ h3 {
   left: 40%;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
-
 .ft_g200 {
   color: #8D8D8D;
 }
@@ -10930,7 +10918,7 @@ h3 {
   background-color: #E0E0E0;
 }
 
-.br_30 {
+.border_radius_30 {
   border-radius: 30px;
 }
 
@@ -10944,16 +10932,8 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-img {
-  display: block;
-}
-
 .logo {
   height: 38px;
-}
-
-.cancel {
-  text-decoration: line-through;
 }
 
 .transparent {
@@ -10962,10 +10942,6 @@ img {
 
 .transparent:hover {
   background-color: rgba(255, 255, 255, 0.2);
-}
-
-.b_2_w {
-  border: 2px solid #FFFFFF;
 }
 
 @media (min-width: 768px) {
@@ -10985,9 +10961,6 @@ img {
   }
   .pt_md_40px {
     padding-top: 40px;
-  }
-  .mb_md_0 {
-    margin-bottom: 0px;
   }
 }
 
