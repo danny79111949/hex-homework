@@ -10861,6 +10861,10 @@ h3 {
   padding-bottom: 40px;
 }
 
+.pt_20px {
+  padding-top: 20px;
+}
+
 .pt_23px {
   padding-top: 23px;
 }
@@ -10871,6 +10875,10 @@ h3 {
 
 .pl_51px {
   padding-left: 51px;
+}
+
+.pl_32px {
+  padding-left: 32px;
 }
 
 .pr_53px {
@@ -10892,6 +10900,10 @@ h3 {
 
 .mt_32px {
   margin-top: 32px;
+}
+
+.t_4px {
+  top: 4px;
 }
 
 .t_0 {
@@ -10925,7 +10937,8 @@ h3 {
 a {
   cursor: pointer;
   display: block;
-  padding: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 a:hover, a:focus {

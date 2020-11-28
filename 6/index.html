@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/all.css">
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-
+    
     <nav class="navbar navbar-expand-md ">    
         
         <img src="img/Perfume.png" alt="logo" class="d-block">
@@ -17,22 +18,32 @@
         </button> 
         <div class="collapse navbar-collapse justify-content-end" >
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link ft_g200" href="#">Product</a>
+                <li class="nav-item d-flex">
+                    <a class="nav-link ft_g200 f2 position-relative" href="#">
+                        <span class="material-icons position-relative t_4px">store</span>
+                        Product
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link ft_g200" href="#">log in</a>
+                <li class="nav-item d-flex ">
+                    <a class="nav-link ft_g200 f2 position-relative" href="#">
+                        <span class="material-icons position-relative t_4px">person</span>
+                        log in
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link ft_g200" href="#">Wishlist</a>
+                <li class="nav-item d-flex">
+                    <a class="nav-link ft_g200 f2 position-relative" href="#">
+                        <span class="material-icons position-relative t_4px">favorite</span>
+                        Wishlist
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link ft_g200" href="#">Cart(3)</a>
+                <li class="nav-item d-flex">
+                    <a class="nav-link ft_g200 f2 position-relative" href="#">
+                        <span class="material-icons position-relative t_4px">local_grocery_store</span>
+                        Cart(3)
+                    </a>
                 </li>
             </ul>
         </div>
-        
-        
     </nav>
       
     <div class="banner mb_md_60px mb_40px position-relative">
@@ -230,10 +241,10 @@
                             <a href="#" class="text-white">Product</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white">Blog</a>
+                            <a href="#" class="text-white pl_32px">Blog</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white">Contact</a>
+                            <a href="#" class="text-white pl_32px">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -252,12 +263,6 @@
 <script>
  AOS.init();
 </script>
-<script>
-    $( document ).ready(function() {
-        $('.navbar-toggler').on('click', function() {
-            $('.menu').toggleClass('d-none');
-        });
-    });
-</script>
+<script src="js/pop_menu.js"></script>
 </body>
 </html>

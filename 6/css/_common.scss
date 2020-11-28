@@ -36,6 +36,9 @@ h3{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.pt_20px{
+    padding-top: 20px;
+}
 .pt_23px{
     padding-top: 23px;
 }
@@ -46,6 +49,9 @@ h3{
 .pl_51px{
     padding-left: 51px;
 } 
+.pl_32px{
+    padding-left: 32px;
+}
 .pr_53px{
     padding-right: 53px;
 }
@@ -64,7 +70,9 @@ h3{
 .mt_32px{
     margin-top: 32px;
 }
-
+.t_4px{
+    top:4px;
+}
 .t_0{
     top:0%;
 }
@@ -90,7 +98,8 @@ h3{
 a{
     cursor: pointer;
     display:block;
-    padding:5px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 a:hover, a:focus {
     text-decoration: none;
