@@ -10802,13 +10802,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.banner {
-  height: 100vh;
-  background: url("../img/laura_chouette.jpg") no-repeat padding-box;
-  background-size: cover;
-  background-position: center;
-}
-
 .subscribe {
   height: 70vh;
   background: url("../img/subcribe.jpg") no-repeat padding-box;
@@ -10979,6 +10972,13 @@ a:hover, a:focus {
   .pt_md_40px {
     padding-top: 40px;
   }
+}
+
+.banner {
+  height: 100vh;
+  background: url("../img/laura_chouette.jpg") no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
 }
 
 .Gabrielle_CHANEL_photo {
