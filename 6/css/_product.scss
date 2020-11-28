@@ -1,0 +1,54 @@
+@import "my_variable"; 
+@import"subcribe";
+@import "common";
+
+.product{
+    width: 100%;
+    height:0;
+    padding-top: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.product:hover{
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.product1{
+    background-image: url('../img/charles-deluvio.jpg');
+}
+
+.product2{
+    background-image: url('../img/Poppy_Barley.png');
+}
+
+.product3{
+    background-image: url('../img/laurissi-unsplash.jpg');
+}
+.product4{
+    background-image: url('../img/laura-chouette.jpg');
+}
+.product5{
+    background-image: url('../img/kelvin-lutan.jpg');
+}
+.product6{
+    background-image: url('../img/CHANEL_N5.jpg');
+}
+.product7{
+    background-image: url('../img/coconoir.jpg');
+}
+.product8{
+    background-image: url('../img/maxim-lozyanko.jpg');
+}
+.product9{
+    background-image: url('../img/Au_Gingembre_photo.png');
+}
+.product10{
+    background-image: url('../img/april-chen.jpg');
+}
+.product11{
+    background-image: url('../img/the-tonik.jpg');
+}
+.product12{
+    background-image: url('../img/laura-unsplash.jpg');
+}

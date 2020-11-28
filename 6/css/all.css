@@ -10827,6 +10827,7 @@ h3 {
 .f1 {
   font-size: 20px;
   line-height: 30px;
+  font-weight: 500;
 }
 
 .f2 {
@@ -10896,6 +10897,10 @@ h3 {
 .px_100px {
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.mb_80px {
+  margin-bottom: 80px;
 }
 
 .mb_40px {
@@ -11008,6 +11013,9 @@ a:hover, a:focus {
   .pt_md_40px {
     padding-top: 40px;
   }
+  .mb_md_59px {
+    margin-bottom: 59px;
+  }
 }
 
 .banner {
@@ -11106,5 +11114,282 @@ a:hover, a:focus {
   .Vinegar_Capsule {
     padding-top: 154%;
   }
+}
+
+.subscribe {
+  height: 70vh;
+  background: url("../img/subcribe.jpg") no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.f1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.f2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.f3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.f4 {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.f5 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.f6 {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.px_4px {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.py_1px {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.py_40px {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pt_20px {
+  padding-top: 20px;
+}
+
+.pt_23px {
+  padding-top: 23px;
+}
+
+.pt_32px {
+  padding-top: 32px;
+}
+
+.pl_51px {
+  padding-left: 51px;
+}
+
+.pl_32px {
+  padding-left: 32px;
+}
+
+.pr_53px {
+  padding-right: 53px;
+}
+
+.px_100px {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.mb_80px {
+  margin-bottom: 80px;
+}
+
+.mb_40px {
+  margin-bottom: 40px;
+}
+
+.mb_32px {
+  margin-bottom: 32px;
+}
+
+.mr_19px {
+  margin-right: 19px;
+}
+
+.mt_32px {
+  margin-top: 32px;
+}
+
+.ml_32px {
+  margin-left: 32px;
+}
+
+.t_4px {
+  top: 4px;
+}
+
+.t_0 {
+  top: 0%;
+}
+
+.t_33 {
+  top: 33%;
+}
+
+.t_50 {
+  top: 50%;
+}
+
+.l_40 {
+  left: 40%;
+}
+
+.l_60 {
+  left: 60%;
+}
+
+.ft_g200 {
+  color: #8D8D8D;
+}
+
+.bg_g100 {
+  background-color: #E0E0E0;
+}
+
+.bg_g300 {
+  background-color: #707070;
+}
+
+.border_radius_30 {
+  border-radius: 30px;
+}
+
+.menu {
+  z-index: 1;
+}
+
+.mark {
+  border-radius: 90%;
+  z-index: 1;
+}
+
+a {
+  cursor: pointer;
+  display: block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.logo {
+  height: 38px;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 1e-05);
+}
+
+.transparent:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .f1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .mb_md_60px {
+    margin-bottom: 60px;
+  }
+  .mb_md_40px {
+    margin-bottom: 40px;
+  }
+  .pt_md_40px {
+    padding-top: 40px;
+  }
+  .mb_md_59px {
+    margin-bottom: 59px;
+  }
+}
+
+.product {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.product:hover {
+  -webkit-box-shadow: 1px 1px 10px 1px;
+          box-shadow: 1px 1px 10px 1px;
+}
+
+.product1 {
+  background-image: url("../img/charles-deluvio.jpg");
+}
+
+.product2 {
+  background-image: url("../img/Poppy_Barley.png");
+}
+
+.product3 {
+  background-image: url("../img/laurissi-unsplash.jpg");
+}
+
+.product4 {
+  background-image: url("../img/laura-chouette.jpg");
+}
+
+.product5 {
+  background-image: url("../img/kelvin-lutan.jpg");
+}
+
+.product6 {
+  background-image: url("../img/CHANEL_N5.jpg");
+}
+
+.product7 {
+  background-image: url("../img/coconoir.jpg");
+}
+
+.product8 {
+  background-image: url("../img/maxim-lozyanko.jpg");
+}
+
+.product9 {
+  background-image: url("../img/Au_Gingembre_photo.png");
+}
+
+.product10 {
+  background-image: url("../img/april-chen.jpg");
+}
+
+.product11 {
+  background-image: url("../img/the-tonik.jpg");
+}
+
+.product12 {
+  background-image: url("../img/laura-unsplash.jpg");
 }
 /*# sourceMappingURL=all.css.map */
