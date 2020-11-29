@@ -11359,6 +11359,7 @@ a:hover, a:focus {
 .product {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .product img {
