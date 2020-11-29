@@ -74,8 +74,8 @@ h3{
     padding-left: 100px;
     padding-right: 100px;
 } 
-.mb_80px{
-    margin-bottom: 80px;
+.mb_42px{
+    margin-bottom: 42px;
 }
 .mb_40px{
     margin-bottom: 40px;
@@ -152,7 +152,9 @@ a:hover, a:focus {
     background-color: rgba(255, 255, 255,0.2);
 }
 
-
+.hshadow:hover{
+    box-shadow: 1px 1px 10px 1px;
+}
 
   
 @media(min-width:768px){
@@ -175,5 +177,9 @@ a:hover, a:focus {
     }
     .mb_md_59px{
         margin-bottom: 59px;
+    }
+    .mb_md_80px
+    {
+        margin-bottom: 80px;
     }
 }
