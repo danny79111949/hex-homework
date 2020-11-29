@@ -11349,43 +11349,23 @@ a:hover, a:focus {
 }
 
 .product {
+  position: relative;
   width: 100%;
-  height: 0;
+}
+
+.product img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product::before {
+  display: block;
+  content: '';
+  width: 100%;
   padding-top: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.product1 {
-  background-image: url("../img/charles-deluvio.jpg");
-}
-
-.product2 {
-  background-image: url("../img/Poppy_Barley.png");
-}
-
-.product3 {
-  background-image: url("../img/laurissi-unsplash.jpg");
-}
-
-.product4 {
-  background-image: url("../img/laura-chouette.jpg");
-}
-
-.product5 {
-  background-image: url("../img/kelvin-lutan.jpg");
-}
-
-.product6 {
-  background-image: url("../img/CHANEL_N5.jpg");
-}
-
-.product7 {
-  background-image: url("../img/coconoir.jpg");
-}
-
-.product8 {
-  background-image: url("../img/maxim-lozyanko.jpg");
 }
 
 .product9 {
