@@ -11004,6 +11004,26 @@ a:hover, a:focus {
           box-shadow: 1px 1px 10px 1px;
 }
 
+.object_pos_x_0 {
+  -o-object-position: 0% 0;
+     object-position: 0% 0;
+}
+
+.object_pos_y_20 {
+  -o-object-position: 0 20%;
+     object-position: 0 20%;
+}
+
+.object_pos_y_25 {
+  -o-object-position: 0 25%;
+     object-position: 0 25%;
+}
+
+.object_pos_y_90 {
+  -o-object-position: 0 90%;
+     object-position: 0 90%;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 40px;
@@ -11037,26 +11057,6 @@ a:hover, a:focus {
   background-position: center;
 }
 
-.Gabrielle_CHANEL_photo {
-  background: url("../img/Gabrielle_CHANEL.jpg") no-repeat padding-box;
-  background-size: cover;
-  background-position: center 30%;
-  height: 350px;
-}
-
-.Au_Gingembre_photo {
-  background: url("../img/Au_Gingembre_photo.png") no-repeat padding-box;
-  background-size: cover;
-  background-position: center;
-  height: 350px;
-}
-
-.CHANEL_N5_photo {
-  background: url("../img/CHANEL_N5.jpg") no-repeat padding-box;
-  background-size: cover;
-  height: 350px;
-}
-
 .annie_spratt_photo {
   background: url("../img/annie_spratt.jpg") no-repeat padding-box;
   background-size: cover;
@@ -11064,31 +11064,26 @@ a:hover, a:focus {
   height: 680px;
 }
 
-.Poppy_Barley {
-  background: url("../img/Poppy_Barley.png") no-repeat padding-box;
-  background-size: cover;
-  background-position: center 90%;
-  max-width: 100%;
-  height: 0;
-  padding-top: 110%;
+.introduction {
+  position: relative;
+  width: 100%;
 }
 
-.Body_Wash {
-  background: url("../img/Body_Wash.png") no-repeat padding-box;
-  background-size: cover;
-  background-position: center 70%;
-  max-width: 100%;
-  height: 0;
-  padding-top: 110%;
+.introduction img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.Vinegar_Capsule {
-  background: url("../img/Vinegar_Capsule.jpg") no-repeat padding-box;
-  background-size: cover;
-  background-position: center 70%;
-  max-width: 100%;
-  height: 0;
-  padding-top: 110%;
+.introduction::before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top: 100%;
 }
 
 .filter {
@@ -11103,27 +11098,36 @@ a:hover, a:focus {
   height: 520px;
 }
 
+.hot {
+  position: relative;
+  width: 100%;
+}
+
+.hot img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hot::before {
+  display: block;
+  content: '';
+  width: 100%;
+  padding-top: 100%;
+}
+
 @media (min-width: 768px) {
-  .Gabrielle_CHANEL_photo {
-    height: 555px;
-    background-position: center;
-  }
-  .Au_Gingembre_photo {
-    height: 555px;
-  }
-  .CHANEL_N5_photo {
-    height: 555px;
-  }
   .annie_spratt_photo {
     height: 1080px;
   }
-  .Poppy_Barley {
-    padding-top: 154%;
-  }
-  .Body_Wash {
-    padding-top: 154%;
-  }
-  .Vinegar_Capsule {
+  .hot::before {
+    display: block;
+    content: '';
+    width: 100%;
     padding-top: 154%;
   }
 }
@@ -11330,6 +11334,26 @@ a:hover, a:focus {
           box-shadow: 1px 1px 10px 1px;
 }
 
+.object_pos_x_0 {
+  -o-object-position: 0% 0;
+     object-position: 0% 0;
+}
+
+.object_pos_y_20 {
+  -o-object-position: 0 20%;
+     object-position: 0 20%;
+}
+
+.object_pos_y_25 {
+  -o-object-position: 0 25%;
+     object-position: 0 25%;
+}
+
+.object_pos_y_90 {
+  -o-object-position: 0 90%;
+     object-position: 0 90%;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 40px;
@@ -11359,7 +11383,6 @@ a:hover, a:focus {
 .product {
   position: relative;
   width: 100%;
-  overflow: hidden;
 }
 
 .product img {
@@ -11368,6 +11391,8 @@ a:hover, a:focus {
   left: 0;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .product::before {
