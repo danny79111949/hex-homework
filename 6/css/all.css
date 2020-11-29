@@ -10911,6 +10911,10 @@ h3 {
   margin-bottom: 32px;
 }
 
+.mr_11px {
+  margin-right: 11px;
+}
+
 .mr_19px {
   margin-right: 19px;
 }
@@ -11233,6 +11237,10 @@ h3 {
   margin-bottom: 32px;
 }
 
+.mr_11px {
+  margin-right: 11px;
+}
+
 .mr_19px {
   margin-right: 19px;
 }
@@ -11366,21 +11374,5 @@ a:hover, a:focus {
   content: '';
   width: 100%;
   padding-top: 100%;
-}
-
-.product9 {
-  background-image: url("../img/Au_Gingembre_photo.png");
-}
-
-.product10 {
-  background-image: url("../img/april-chen.jpg");
-}
-
-.product11 {
-  background-image: url("../img/the-tonik.jpg");
-}
-
-.product12 {
-  background-image: url("../img/laura-unsplash.jpg");
 }
 /*# sourceMappingURL=all.css.map */
