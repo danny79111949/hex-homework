@@ -1,3 +1,5 @@
+@import "my_variable";
+
 h1{
     font-size: 32px;
     line-height: 48px;
@@ -89,6 +91,10 @@ h3{
 .mr_19px{
     margin-right: 19px;
 }
+.mr_20px{
+    margin-right: 20px;
+}
+
 .mt_32px{
     margin-top: 32px;
 }
@@ -138,11 +144,19 @@ a{
     display:block;
     padding-left: 4px;
     padding-right: 4px;
+    
 }
 a:hover, a:focus {
     text-decoration: none;
 }
 
+.text-black{
+    color:black;
+}
+
+a.underline{
+    text-decoration: underline;
+}
 
 .logo{
     height: 38px;
@@ -171,6 +185,9 @@ a:hover, a:focus {
     }
     .mb_md_60px{
         margin-bottom: 60px;
+    }
+    .mt_md_20px{
+        margin-top: 20px;
     }
     .mb_md_40px{
         margin-bottom: 40px;
