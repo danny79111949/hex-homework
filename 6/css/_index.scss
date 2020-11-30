@@ -10,25 +10,6 @@
     background-position: center;
 }
 
-.Gabrielle_CHANEL_photo{
-    background: url("../img/Gabrielle_CHANEL.jpg")  no-repeat padding-box;
-    background-size: cover;
-    background-position: center 30%;
-    height:350px;
-}
-
-.Au_Gingembre_photo{
-    background: url("../img/Au_Gingembre_photo.png")  no-repeat padding-box;
-    background-size: cover;
-    background-position: center;
-    height:350px;
-}
-
-.CHANEL_N5_photo{
-    background: url("../img/CHANEL_N5.jpg")  no-repeat padding-box;
-    background-size: cover;
-    height:350px;
-}
 
 .annie_spratt_photo{
     
@@ -38,30 +19,27 @@
     height: 680px;
 }
 
-.Poppy_Barley{
-    background: url("../img/Poppy_Barley.png")  no-repeat padding-box;
-    background-size: cover;
-    background-position: center 90%;
-    max-width: 100%;
-    height: 0;
-    padding-top: 110%;
+.introduction{
+    position: relative;
+    width: 100%;
+    img{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
-.Body_Wash{
-    background: url("../img/Body_Wash.png")  no-repeat padding-box;
-    background-size: cover;
-    background-position: center 70%;
-    max-width: 100%;
-    height: 0;
-    padding-top: 110%;
+
+.introduction::before{
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: 100%;
 }
-.Vinegar_Capsule{
-    background: url("../img/Vinegar_Capsule.jpg")  no-repeat padding-box;
-    background-size: cover;
-    background-position: center 70%;
-    max-width: 100%;
-    height: 0;
-    padding-top: 110%;
-}
+
+
 .filter{
     width: 100%;
     height:100%;
@@ -73,31 +51,38 @@
     height: 520px;
 }
 
+.hot{
+    position: relative;
+    width: 100%;
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.hot::before{
+    display:block;
+    content: '';
+    width: 100%;
+    padding-top: 100%;
+}
+
 
 @media(min-width:768px)
 {
-    .Gabrielle_CHANEL_photo{
-        height:555px;
-        background-position: center;
-    }
-    
-    .Au_Gingembre_photo{
-        height:555px;
-    }
-    
-    .CHANEL_N5_photo{
-        height:555px;
-    }
+
     .annie_spratt_photo{
         height:1080px;
     }
-    .Poppy_Barley{
-        padding-top:154%;
-    }
-    .Body_Wash{
-        padding-top: 154%;
-    }
-    .Vinegar_Capsule{
+
+    .hot::before{
+        display:block;
+        content: '';
+        width: 100%;
         padding-top: 154%;
     }
 }

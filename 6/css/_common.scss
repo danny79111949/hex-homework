@@ -173,6 +173,29 @@ a.underline{
     box-shadow: 1px 1px 10px 1px;
 }
 
+.object_pos_x_0{
+    object-position: 0% 0;
+}
+
+.object_pos_y_20{
+    object-position: 0 20%;
+}
+
+.object_pos_y_25{
+    object-position: 0 25%;
+}
+
+.object_pos_y_90{
+    object-position: 0 90%;
+}
+
+.favorite{
+    cursor: pointer;
+}
+.cart{
+    cursor: pointer;
+}
+
   
 @media(min-width:768px){
     h1{
