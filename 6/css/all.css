@@ -10989,6 +10989,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
+  color: #707070;
 }
 
 .text-black {
@@ -11342,6 +11343,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
+  color: #707070;
 }
 
 .text-black {
